@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Goolwa Heritage Walks</name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+      <Placemark>
+        <name>Start of Walks (Visitor Information Centre)</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <coordinates>
+            138.7840578,-35.5032297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    <Folder>
+		<name>Goolwa Heritage Walk, Walk 1, Cadell Street</name>
+		<description>To find out more at about this walk visit https://www.walkingsa.org.au/walk/find-a-place-to-walk/goolwa-heritage-walk-walk-1-cadell-street/</description>
+      <Placemark>
+        <name>Goolwa Heritage Walk, Walk 1, Cadell Street</name>
+        <Style>
+          <LineStyle>
+            <color>ff93312f</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            138.7840578,-35.5032297,0
+            138.7838687,-35.5029316,0
+            138.7836917,-35.5026958,0
+            138.7835804,-35.5025375,0
+            138.7828803,-35.5017722,0
+            138.7812254,-35.4998517,0
+            138.7810725,-35.4999412,0
+            138.782773,-35.5019043,0
+            138.7835321,-35.5027471,0
+            138.7833926,-35.502865,0
+            138.7832263,-35.5028257,0
+            138.7832049,-35.5030441,0
+            138.7841463,-35.5036511,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>End of Walk 1</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <coordinates>
+            138.7841463,-35.5036511,0
+          </coordinates>
+        </Point>
+      </Placemark>
+	</Folder>
+    <Folder>
+		<name>Goolwa Heritage Walk, Walk 2, Goolwa Wharf Precinct</name>
+		<description>To find out more at about this walk visit https://www.walkingsa.org.au/walk/find-a-place-to-walk/goolwa-heritage-walk-walk-2-goolwa-wharf-precinct/</description>
+      <Placemark>
+        <name>Goolwa Heritage Walk, Walk 2, Goolwa Wharf Precinct</name>
+        <Style>
+          <LineStyle>
+            <color>ff51a701</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            138.7840766,-35.5032341,0
+            138.7844789,-35.5033607,0
+            138.7844494,-35.5034328,0
+            138.7853292,-35.5037101,0
+            138.785187,-35.5039328,0
+            138.7855974,-35.5041184,0
+            138.7853158,-35.5045573,0
+            138.7856054,-35.5041206,0
+            138.785753,-35.5041861,0
+            138.7856081,-35.5044088,0
+            138.7857181,-35.5044634,0
+            138.7857449,-35.5045682,0
+            138.7858737,-35.5046271,0
+            138.7866381,-35.5034873,0
+            138.7864128,-35.5031511,0
+            138.7869063,-35.5024305,0
+            138.7870941,-35.5020571,0
+            138.7871075,-35.5018781,0
+            138.7870082,-35.501616,0
+            138.7869787,-35.5015331,0
+            138.7868688,-35.5009544,0
+            138.7869117,-35.5008736,0
+            138.7868205,-35.500771,0
+            138.7851763,-35.5017798,0
+            138.7851816,-35.5018453,0
+            138.7854284,-35.5021095,0
+            138.7851816,-35.5022252,0
+            138.7850395,-35.5022602,0
+            138.7847766,-35.5024895,0
+            138.784436,-35.5026991,0
+            138.7842992,-35.5027428,0
+            138.784377,-35.5028388,0
+            138.7849537,-35.5030506,0
+            138.7851119,-35.5029043,0
+            138.7850904,-35.5027449,0
+            138.7852004,-35.5026379,0
+            138.7853318,-35.5026205,0
+            138.7853855,-35.5026379,0
+            138.7855089,-35.5026925,0
+            138.7855169,-35.5027777,0
+            138.7854043,-35.502793,0
+            138.7851655,-35.5028891,0
+            138.7849885,-35.5030659,0
+            138.7852836,-35.5031773,0
+            138.785584,-35.5033563,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>End of Walk 2</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <coordinates>
+            138.785584,-35.5033563,0
+          </coordinates>
+        </Point>
+      </Placemark>
+	</Folder>
+    <Folder>
+		<name>Goolwa Heritage Walk, Walk 3, Little Scotland</name>
+		<description>To find out more at about this walk visit https://www.walkingsa.org.au/walk/find-a-place-to-walk/goolwa-heritage-walk-walk-3-little-scotland/</description>
+      <Placemark>
+        <name>Goolwa Heritage Walk, Walk 3, Little Scotland</name>
+        <Style>
+          <LineStyle>
+            <color>ff211db1</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            138.7840766,-35.5032341,0
+            138.7844789,-35.5033607,0
+            138.7844494,-35.5034328,0
+            138.784318,-35.5033978,0
+            138.7842321,-35.5034917,0
+            138.784326,-35.5036315,0
+            138.7843448,-35.5037253,0
+            138.7842885,-35.5038629,0
+            138.7840042,-35.5041555,0
+            138.7828079,-35.5053542,0
+            138.7828401,-35.5053783,0
+            138.7840283,-35.5055224,0
+            138.7838674,-35.5064176,0
+            138.7839344,-35.5060333,0
+            138.7814856,-35.5057494,0
+            138.7817377,-35.5044153,0
+            138.782073,-35.5046381,0
+            138.7821239,-35.5045791,0
+            138.7817672,-35.5043433,0
+            138.7822044,-35.5038935,0
+            138.7826604,-35.504173,0
+            138.7827596,-35.5040747,0
+            138.7821883,-35.5037166,0
+            138.7826362,-35.5032537,0
+            138.7819093,-35.5027799,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>End of Walk 3</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <coordinates>
+            138.7819093,-35.5027799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+	</Folder>
+  </Document>
+</kml>

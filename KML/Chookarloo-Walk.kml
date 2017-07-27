@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>Chookarloo Walk</name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Chookarloo Walk trailhead</name>
+		<styleUrl>#trailhead</styleUrl>
+        <Point>
+          <coordinates>138.714972977,-35.204708967,299.818</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junction with Heysen Trail</name>
+		<styleUrl>#trailhead</styleUrl>
+        <Point>
+          <coordinates>138.7118817566578,-35.20731976388078</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+        <Placemark>
+          <name>Chookarloo Walk</name>
+          <styleUrl>#wsa_line</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>
+				138.71492,-35.204727,299.59 138.714798,-35.204716,300.07 138.714737,-35.204647,299.59 138.714615,-35.204613,299.59 138.714462,-35.204632,300.55 138.714355,-35.204651,301.03 138.714172,-35.204716,300.55 138.713989,-35.204739,300.55 138.713791,-35.204723,300.55 138.713623,-35.204784,301.03 138.713486,-35.204845,300.55 138.713379,-35.204941,301.03 138.713318,-35.205059,301.03 138.713226,-35.205219,301.51 138.713013,-35.205353,301.51 138.712875,-35.205448,301.03 138.712692,-35.205513,301.03 138.712555,-35.205593,301.03 138.712418,-35.205593,301.03 138.712296,-35.205544,301.03 138.712158,-35.205582,301.03 138.71199,-35.205471,301.51 138.711899,-35.205521,301.03 138.711899,-35.20562,301.51 138.7118731585858,-35.20731197126375,303.43 138.712036,-35.207268,303.43 138.712112,-35.207222,303.43 138.712173,-35.207157,303.43 138.712265,-35.207092,303.43 138.712402,-35.207012,303.43 138.71257,-35.206966,302.95 138.712738,-35.206921,303.43 138.71286,-35.206879,303.43 138.713013,-35.206848,303.43 138.713196,-35.206783,303.43 138.713394,-35.206753,302.95 138.713486,-35.206722,303.43 138.713577,-35.206657,302.95 138.713745,-35.20657,303.43 138.713913,-35.206493,303.43 138.71405,-35.206402,302.95 138.714142,-35.206318,302.47 138.714264,-35.206234,302.47 138.714401,-35.206184,303.43 138.714569,-35.206139,302.47 138.714676,-35.206139,302.47 138.714828,-35.20607,301.99 138.714935,-35.205959,301.99 138.715042,-35.205814,301.51 138.715118,-35.205677,301.51 138.715195,-35.205574,301.51 138.715225,-35.205425,301.03 138.71524,-35.205307,300.07 138.715302,-35.205235,299.59 138.715424,-35.205193,300.55 138.715607,-35.205147,300.55 138.715744,-35.205109,299.59 138.715805,-35.205093,299.59 138.715775,-35.205006,300.07 138.715729,-35.20491,299.59 138.715652,-35.204819,299.59 138.715546,-35.204716,299.59 138.715424,-35.204689,299.59 138.715302,-35.204651,300.07 138.715195,-35.204639,299.59 138.715027,-35.204678,299.59 138.71492,-35.204727,299.59 138.714798,-35.204716,300.07 138.714737,-35.204647,299.59 138.714615,-35.204613,299.59 138.714462,-35.204632,300.55 138.714355,-35.204651,301.03 
+</coordinates>
+          </LineString>
+        </Placemark>
+  </Document>
+</kml>

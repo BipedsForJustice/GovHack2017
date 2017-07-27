@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Harveys Return Hike]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Bay</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>136.63951979,-35.748571688</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harveys Return trailhead (Harveys Return campground)</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>136.638036277,-35.751307206</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Return trailhead Hike trailhead (Harveys Return campground)</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>136.637755986,-35.75078032</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Top of trackway (steep down)</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>136.639654236,-35.749646835</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Harveys Return Hike]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff0000e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>136.638036277,-35.751307206 136.638116995,-35.751264878 136.63812831,-35.751206037 136.638134597,-35.751135042 136.638166364,-35.751114422 136.638146751,-35.750995232 136.638175501,-35.750938151 136.638272144,-35.750889536 136.638337355,-35.750834551 136.638413798,-35.75078845 136.638477668,-35.750760371 136.638574228,-35.750744948 136.638622591,-35.750722485 136.638698699,-35.750658363 136.638750918,-35.750627434 136.638808502,-35.750620812 136.638841694,-35.750620393 136.638951832,-35.750600863 136.639007153,-35.750600109 136.63909575,-35.750607904 136.639172947,-35.750597846 136.63924587,-35.750534227 136.639302699,-35.750519307 136.63935869,-35.750487121 136.639380483,-35.750468764 136.639435384,-35.750449989 136.639479222,-35.750431381 136.639589276,-35.750402799 136.639666473,-35.750392741 136.63972171,-35.750391986 136.639788263,-35.750400117 136.639865795,-35.750408079 136.639999403,-35.75045133 136.640065704,-35.750450408 136.64014223,-35.750404308 136.640196377,-35.75034949 136.640217584,-35.750304144 136.640216494,-35.750249997 136.640214985,-35.750177912 136.640179949,-35.750088226 136.64013519,-35.750061823 136.640078779,-35.750008514 136.640000073,-35.749946488 136.6399212,-35.74987541 136.639842326,-35.749804331 136.639819695,-35.749777677 136.639704527,-35.749690421 136.63965147,-35.749644488 136.639682399,-35.74957123 136.639677621,-35.749447765 136.639711484,-35.749355396 136.639726153,-35.749252802 136.639721459,-35.749135455 136.639750376,-35.749088516 136.639747024,-35.749039985 136.639716178,-35.748983659 136.639673598,-35.748963961 136.639662869,-35.748923644 136.639584498,-35.748847704 136.639600927,-35.748796826 136.639554827,-35.748720467 136.63952373,-35.748652071 136.639519706,-35.74856909 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

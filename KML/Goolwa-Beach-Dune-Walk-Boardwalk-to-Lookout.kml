@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Goolwa Beach Dune Walk (Boardwalk to Lookout)</name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder>
+      <name>Waypoints</name>
+		<Placemark>
+			<name>Goolwa Beach Lookout</name>
+			<styleUrl>#trailhead</styleUrl>
+			<Point>
+				<coordinates>138.7752626983554,-35.5225437900939,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Trailhead, Goolwa Beach Dune Walk (Boardwalk to Lookout)</name>
+			<styleUrl>#trailhead</styleUrl>
+			<Point>
+				<coordinates>138.7735740662158,-35.52205480993598,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>End of wheelchair access (a lookout), start of stairs</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>138.7746785099234,-35.5222112480765,0</coordinates>
+			</Point>
+		</Placemark>
+    </Folder>
+	<Folder>
+		<name>Goolwa Beach Dune Walk (Boardwalk to Lookout)</name>
+		<open>1</open>
+		<Placemark>
+			<name>Goolwa Beach Dune Walk (Boardwalk to Lookout)</name>
+			<styleUrl>#ffff5500</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					138.7735738975521,-35.52205290586414,0 138.7736909759736,-35.52200798425125,0 138.7739334886698,-35.52199981838619,0 138.7740990514421,-35.52201071131026,0 138.7741241345714,-35.52201139258751,0 138.7743493951312,-35.52205631346161,0 138.7743786589433,-35.52206516124211,0 138.7744045777047,-35.52207605051657,0 138.7747132749994,-35.52225728365616,0 138.7748604070849,-35.52225455310855,0 138.7750777412693,-35.52234027086057,0 138.7751239377631,-35.52236893897401,0 138.775225080991,-35.52245806767705,0 138.7752618623767,-35.52254038840371,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

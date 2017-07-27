@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Discovery Walk]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Black Swamp Lookout shelter</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>136.734748017,-35.950698014,61.676</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flinders Chase Visitor Centre</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>136.736550964,-35.951756984,57.789</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junction to Heritage Walk</name>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>136.735090753,-35.950840423</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walks Trailhead Info Shelter</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>136.736273188,-35.951532517</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Discovery Walk]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff0000e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>136.736268494,-35.9515326 136.736056432,-35.951526817 136.735993065,-35.951514412 136.735937325,-35.951521369 136.735816374,-35.951536372 136.735728364,-35.951547269 136.735668769,-35.951557243 136.735654185,-35.951542826 136.735615879,-35.951504856 136.735587046,-35.951446602 136.735565253,-35.951425396 136.735532982,-35.951403854 136.735534156,-35.951340739 136.735538682,-35.951314755 136.735546226,-35.951271337 136.735543711,-35.951234791 136.735531893,-35.951180477 136.735499874,-35.951143596 136.735466681,-35.95111141 136.735391077,-35.951124905 136.735330392,-35.951129766 136.735246573,-35.951136472 136.735197371,-35.951126916 136.735151941,-35.951110655 136.735122018,-35.951078553 136.735116821,-35.951039325 136.73510869,-35.951000769 136.735107517,-35.950960619 136.73510626,-35.950952824 136.735095615,-35.950903203 136.735096788,-35.950876633 136.735097291,-35.950865736 136.735094273,-35.950855343 136.735090753,-35.950840423 136.735086562,-35.950824246 136.735055465,-35.950807985 136.735047251,-35.950803626 136.734987656,-35.950793903 136.734942645,-35.950788958 136.73489118,-35.950790802 136.734837033,-35.950779906 136.734808534,-35.95073808 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Bald Hill Walk]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Bald Hill</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>137.43465445,-35.900343228</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eastern trailhead on Seagers Road</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>137.440823363,-35.898602223</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Bald Hill Walk]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff0000e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>137.440850521,-35.898630973 137.440727223,-35.898618316 137.440560507,-35.898564756 137.440515915,-35.898556625 137.440402089,-35.898529971 137.440270493,-35.898509771 137.440159684,-35.898500802 137.440010235,-35.898489989 137.439828264,-35.898470711 137.439692477,-35.898483451 137.439475972,-35.898495689 137.43933524,-35.898510609 137.439139271,-35.898534665 137.438988732,-35.898559978 137.438886054,-35.898584453 137.438737946,-35.898607671 137.438549772,-35.898639858 137.438353887,-35.898666009 137.438160516,-35.898694173 137.437967313,-35.898724431 137.437778888,-35.898750415 137.437495999,-35.898821242 137.437285949,-35.898882514 137.437137505,-35.898931799 137.436963413,-35.899034478 137.436774233,-35.899156518 137.436595699,-35.899262382 137.436432084,-35.899361791 137.436281126,-35.899462961 137.436089767,-35.899564968 137.435864545,-35.899687679 137.435695231,-35.899789603 137.43551963,-35.899911812 137.435341347,-35.900029913 137.435172787,-35.900133513 137.43495184,-35.900256559 137.43485746,-35.900307521 137.43477758,-35.900335601 137.434702227,-35.90034524 137.43465445,-35.900343228 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

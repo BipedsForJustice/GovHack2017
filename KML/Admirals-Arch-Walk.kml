@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Admirals Arch Walk]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Admirals Arch</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>136.704906011,-36.063380968</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trailhead at carpark</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>136.704840045,-36.061593443</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Admirals Arch Walk]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff0000e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>136.704840045,-36.061593443 136.70482236,-36.061691931 136.704812972,-36.061824616 136.704780199,-36.061914219 136.704731165,-36.061970964 136.704696128,-36.062011784 136.704651872,-36.062046234 136.70453704,-36.062087556 136.704676179,-36.062199119 136.704657236,-36.062210687 136.704571238,-36.062232396 136.704302514,-36.062235832 136.704229759,-36.062216889 136.704153568,-36.062205825 136.704303436,-36.062371116 136.704373844,-36.062447475 136.704449449,-36.062521571 136.704554055,-36.062648557 136.704589007,-36.062698429 136.704667965,-36.062851148 136.704717167,-36.062916443 136.704792855,-36.063038735 136.704480462,-36.062994562 136.704639802,-36.063287258 136.704694116,-36.063479371 136.704824455,-36.063565202 136.704911375,-36.063623456 136.704903077,-36.063631838 136.704948172,-36.063665282 136.704960661,-36.063656481 136.704999134,-36.063682381 136.704984633,-36.063610213 136.704984214,-36.063541481 136.704990501,-36.063504601 136.704968121,-36.063476522 136.704966193,-36.063378034 136.704906011,-36.063380968 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

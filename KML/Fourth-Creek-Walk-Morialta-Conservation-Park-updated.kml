@@ -1,0 +1,136 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name><![CDATA[Fourth Creek Walk, Morialta Conservation Park]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Carpark, Stradbroke Road</name>
+        <styleUrl>#carpark</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.690968966,-34.896404296</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>First Falls Carpark</name>
+        <styleUrl>#carpark</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.70236584,-34.903050307,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trailhead on Stradbroke Road</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.691348583,-34.896930093</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trailhead, top carpark</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.702568263,-34.903137982</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Fourth Creek Walk, Morialta Conservation Park]]></name>
+        <Style>
+          <LineStyle>
+            <color>ffd99cff</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.691347241,-34.896921292 138.691455871,-34.896786008 138.691532314,-34.896662794 138.691575229,-34.896630859 138.69166106,-34.896585764 138.691759966,-34.896660028 138.691989966,-34.896830013 138.692339994,-34.897009972 138.692579968,-34.897130001 138.69300996,-34.89725003 138.693469958,-34.897280037 138.694049986,-34.897339968 138.69428996,-34.897350026 138.694560025,-34.897399982 138.694830006,-34.897499979 138.695090013,-34.897669964 138.695220016,-34.897840032 138.695299979,-34.897950003 138.695380026,-34.898059973 138.695559986,-34.898200035 138.695759978,-34.898270024 138.696000036,-34.898419976 138.69618997,-34.898489965 138.69640002,-34.898500023 138.696560031,-34.898570012 138.696690034,-34.89870999 138.696809979,-34.898870001 138.696900001,-34.899039986 138.697120026,-34.899250036 138.697380032,-34.899390014 138.697610032,-34.899529992 138.697889987,-34.899620013 138.698219983,-34.899690002 138.69847999,-34.899810031 138.698730022,-34.899950009 138.699014336,-34.900143463 138.699247688,-34.90022108 138.699393868,-34.900288722 138.699729061,-34.900373379 138.699837774,-34.900410259 138.700009435,-34.900477901 138.700154275,-34.900560379 138.70025821,-34.900660459 138.700445294,-34.900895907 138.700723574,-34.901262699 138.700758358,-34.901276361 138.700956926,-34.901538212 138.701182902,-34.901850019 138.701284239,-34.902099129 138.70152086,-34.902560469 138.7016543,-34.902737075 138.701738119,-34.902823409 138.701833338,-34.902886106 138.70194532,-34.902934469 138.702125028,-34.902999932 138.702289313,-34.903051564 138.702353016,-34.903116021 138.702361733,-34.903147873 138.702447563,-34.903156674 138.702527359,-34.903146196 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[To roadway gate on Stradbroke Road]]></name>
+        <Style>
+          <LineStyle>
+            <color>ffd99cff</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.691286892,-34.89974482 138.691465259,-34.89936864 138.691681176,-34.899100335 138.691824675,-34.898890201 138.692031205,-34.898632793 138.692178726,-34.898489797 138.692404032,-34.898324842 138.692654818,-34.898199365 138.693018341,-34.897994762 138.693235517,-34.897840787 138.693731725,-34.897483382 138.693959713,-34.897345919 138.693975806,-34.897334939 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[To trailhead on Stradbroke Road]]></name>
+        <Style>
+          <LineStyle>
+            <color>ffd99cff</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.690890009,-34.895880008 138.690899983,-34.895889983 138.690969972,-34.89591999 138.69115999,-34.896070026 138.691399964,-34.89636004 138.69166106,-34.896585764 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

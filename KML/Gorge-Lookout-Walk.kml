@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Alligator Gorge</name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Lookout</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>
+            138.0750836663343,-32.74481077078693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trailhead</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <coordinates>
+            138.0761826,-32.7463838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Tracks</name>
+      <Placemark>
+        <name>Gorge Lookout Walk</name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff008cff</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            138.0761966536948,-32.74635852364747,0 138.0761473014757,-32.74614768006472,0 138.0761958503005,-32.74600156490784,0 138.0762254001371,-32.74592373735519,0 138.0761920586044,-32.74582937178,0 138.0758806548977,-32.74564809401682,0 138.0756614035429,-32.74556860353116,0 138.0756042164998,-32.74551495458879,0 138.0755608002084,-32.74535628012695,0 138.0755150559568,-32.74522845690456,0 138.0754903106976,-32.74507847701351,0 138.0754251618571,-32.74500969352224,0 138.0752939798148,-32.74493674089322,0 138.0751479028688,-32.7448580653319,0 138.0750841935937,-32.74482305936159,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

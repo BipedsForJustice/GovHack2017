@@ -1,0 +1,145 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Geological Hike]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Enter quarry as short sidetrip</name>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.727148026,-34.84062097,241.682</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junction</name>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.724194998,-34.841957968,234.266</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junction (shortcut start)</name>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.724658014,-34.841869036,241.87</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junction (shortcut)</name>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.724664217,-34.841100331</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junction, head downhill (stay in park, dont cross fence)</name>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.726261975,-34.841914969,274.116</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junction, return trail</name>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.726182012,-34.840490967,234.014</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seat with views / Gun Emplacement</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.723815968,-34.841446001</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trailhead, Gate 9</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.725198982,-34.84024697,234.97</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Views from above quarry</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.727758983,-34.84112598,264.388</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Geological Hike]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>fff021a1</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.725174004,-34.840247976,230.37 138.725250028,-34.840282006,234.7 138.725387994,-34.840340009,234.7 138.725585975,-34.840365993,236.14 138.725799965,-34.840374039,237.1 138.725937009,-34.84038502,237.58 138.726043962,-34.840404969,237.58 138.726166002,-34.840454003,237.58 138.726273039,-34.840495996,237.1 138.726394996,-34.840518963,237.58 138.72653204,-34.840546036,238.06 138.726700014,-34.840584006,239.51 138.726990027,-34.840625999,240.47 138.727173004,-34.840651983,242.39 138.727203012,-34.840651983,241.43 138.727280041,-34.840744017,242.87 138.727401998,-34.84076296,242.87 138.727569971,-34.840641003,242.39 138.727858979,-34.840648966,245.27 138.727982026,-34.840625999,247.2 138.728133989,-34.840625999,249.12 138.728271034,-34.840682996,250.56 138.728424003,-34.840733036,251.04 138.72853104,-34.840717027,253.44 138.728668001,-34.84072499,254.89 138.728850977,-34.840733036,258.25 138.728989027,-34.840838984,258.73 138.729034038,-34.840968987,258.73 138.728943011,-34.841003018,259.69 138.728835974,-34.84103797,260.17 138.728714017,-34.841056997,261.14 138.728637993,-34.841067977,261.14 138.728560964,-34.841056997,261.62 138.72847002,-34.841056997,262.58 138.728377987,-34.841041993,263.06 138.728332976,-34.84103797,263.54 138.728241026,-34.841041993,263.06 138.728133989,-34.841049034,263.54 138.728042962,-34.841041993,264.5 138.727921005,-34.841064038,263.54 138.727828972,-34.841076024,264.02 138.727753032,-34.841103014,264.5 138.727676002,-34.841140984,264.5 138.727553962,-34.841212984,264.02 138.727448015,-34.841254978,264.5 138.727385988,-34.841305017,262.1 138.727309965,-34.841369977,261.62 138.727280041,-34.841434015,262.58 138.727264032,-34.841498975,264.02 138.727173004,-34.841579022,265.46 138.727065967,-34.841633001,264.98 138.726944011,-34.841595031,264.5 138.726851977,-34.841534011,264.02 138.72674603,-34.841476008,263.54 138.726653997,-34.841446001,263.54 138.72654696,-34.841419011,264.02 138.726456016,-34.841389004,263.54 138.726440007,-34.841438038,265.46 138.726425003,-34.841514984,267.38 138.726394996,-34.841595031,269.79 138.726378987,-34.841663009,270.75 138.726317966,-34.841742972,271.71 138.726273039,-34.841812039,271.71 138.72625703,-34.841887979,272.67 138.726242026,-34.841911029,272.67 138.726166002,-34.841845986,271.71 138.726073969,-34.841824025,271.23 138.725983026,-34.841800975,268.83 138.725844976,-34.841788989,266.42 138.725723019,-34.841793012,264.02 138.725570971,-34.841797035,262.58 138.725449014,-34.841797035,260.17 138.725326974,-34.841800975,257.77 138.725204011,-34.841808015,254.41 138.72509798,-34.841788989,251.52 138.724976024,-34.841797035,249.12 138.724868987,-34.841824025,246.72 138.724762034,-34.841857972,244.79 138.724593977,-34.841927039,240.47 138.724457016,-34.841938019,238.06 138.724318966,-34.841948999,235.66 138.72419701,-34.841956962,234.22 138.724167002,-34.841914969,233.74 138.724105982,-34.841808015,232.78 138.724029958,-34.841709025,231.33 138.723969022,-34.841606012,228.93 138.723876989,-34.841518002,228.93 138.723815968,-34.841446001,229.89 138.723815968,-34.841357991,230.85 138.723906996,-34.841293031,229.89 138.723999029,-34.841254978,230.37 138.724120986,-34.841232011,230.37 138.724228023,-34.841197981,230.37 138.724364983,-34.841148024,231.33 138.724442013,-34.841128998,231.33 138.724654997,-34.841106031,232.3 138.724762034,-34.841076024,233.26 138.72488399,-34.841091027,233.26 138.725021034,-34.841072001,235.66 138.725127988,-34.841072001,237.1 138.725204011,-34.841015004,237.58 138.725326974,-34.84093504,238.54 138.725449014,-34.84087796,239.02 138.725570971,-34.840832027,237.58 138.725693012,-34.84078601,234.7 138.725814968,-34.84078601,234.22 138.725952012,-34.840720966,233.74 138.726073969,-34.840641003,234.22 138.726134989,-34.840552993,233.74 138.726166002,-34.840461966,233.74 138.726043962,-34.840404969,237.58 138.725937009,-34.84038502,237.58 138.725799965,-34.840374039,237.1 138.725585975,-34.840365993,236.14 138.725387994,-34.840340009,234.7 138.725250028,-34.840282006,234.7 138.725174004,-34.840247976,230.37 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

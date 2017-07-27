@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Hindmarsh Falls</name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffefae00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Hindmarsh Falls</name>
+		<open>1</open>
+		<Placemark>
+			<name>Upper Carpark</name>
+			<styleUrl>#carpark</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>138.5843168491874,-35.44218924071199,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hindmarsh Fall walking path</name>
+			<styleUrl>#wsa_line</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					138.5842759266891,-35.44224061208632,0 138.5842822099264,-35.44261637783982,0 138.5842721835904,-35.44268260747992,0 138.5842964597765,-35.44273795937879,0 138.5843074581284,-35.44277677921329,0 138.5842814390553,-35.44282746743605,0 138.5842258705038,-35.44287092370645,0 138.5841886033342,-35.44290130715255,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Falls viewing area</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>138.5841838620696,-35.44290889084201,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hindmarsh Falls picnic area</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>138.5824138900767,-35.44036488952481,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name><![CDATA[Mannum Waterfalls]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Boundary fence</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>139.216342969,-34.927390013,61.5</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>End of walking trails</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>139.213509131,-34.92665844</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lower carpark</name>
+        <styleUrl>#carpark</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>139.224507026,-34.932189994,18.8</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toilets</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>139.22308797,-34.93276801,12.4</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Upper carpark</name>
+        <styleUrl>#carpark</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>139.218353033,-34.926400194</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Mannum Waterfalls walking trail]]></name>
+        <Style>
+          <LineStyle>
+            <color>ffc47500</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>139.224489927,-34.932194604 139.224388003,-34.932328798 139.224130511,-34.932500292 139.223878384,-34.932768513 139.223822141,-34.932799274 139.222346758,-34.932816876 139.222148359,-34.932836741 139.222043836,-34.932808075 139.221965969,-34.932819139 139.221772766,-34.932750994 139.221729934,-34.93271579 139.22166816,-34.932667427 139.221617281,-34.932555193 139.221504629,-34.932421083 139.221459031,-34.932315638 139.221416116,-34.932242967 139.22131151,-34.932161579 139.221182764,-34.931983463 139.221123839,-34.93194608 139.221035158,-34.93187584 139.220989561,-34.93181197 139.220898366,-34.931763606 139.220842123,-34.931704262 139.22080189,-34.931622874 139.220689237,-34.931552466 139.220606089,-34.93142942 139.220587313,-34.931367813 139.220490837,-34.931330429 139.220383465,-34.931273265 139.220249439,-34.931139071 139.220203841,-34.931070926 139.220066965,-34.931090707 139.219873762,-34.931066483 139.219699502,-34.931114931 139.2196244,-34.93111711 139.219543934,-34.931097329 139.219458103,-34.931048965 139.219270265,-34.930976378 139.219112098,-34.93096984 139.219034314,-34.930932373 139.219010174,-34.930914771 139.21884656,-34.930850985 139.218760729,-34.930789461 139.218680263,-34.930730117 139.218618572,-34.930646466 139.218559563,-34.930613609 139.21848706,-34.930591565 139.218267202,-34.93043323 139.218210876,-34.930402469 139.218173325,-34.930325523 139.218095541,-34.93022427 139.218052626,-34.930180432 139.21813041,-34.930160567 139.218200063,-34.930178169 139.218092859,-34.930057218 139.21805799,-34.929958312 139.218047261,-34.929931909 139.217969477,-34.929837277 139.217921197,-34.92976469 139.217832685,-34.929700987 139.217805862,-34.929656982 139.217773676,-34.929571236 139.217733359,-34.92952941 139.217677116,-34.929373339 139.217583239,-34.929225985 139.21757251,-34.929116014 139.217553735,-34.92908299 139.21754837,-34.92903471 139.217534959,-34.929001685 139.217513502,-34.928909317 139.217459941,-34.928849889 139.21741426,-34.928773027 139.217483997,-34.928720221 139.217529595,-34.928599186 139.217537642,-34.92851126 139.21757251,-34.928440936 139.217663705,-34.928429872 139.217695892,-34.928418892 139.217741489,-34.928370528 139.217728078,-34.928269358 139.217674434,-34.928210014 139.21764493,-34.928172631 139.217543006,-34.928130805 139.21748668,-34.928080263 139.217408895,-34.928042879 139.217344522,-34.928036341 139.217282832,-34.928007675 139.217172861,-34.927902063 139.217049479,-34.927893262 139.216974378,-34.927789997 139.216936827,-34.92770643 139.216858959,-34.92760526 139.216719568,-34.927512892 139.216606915,-34.927477688 139.216521084,-34.927499732 139.21633333,-34.927453464 139.216314638,-34.927387582 139.21621263,-34.927314995 139.216091931,-34.927251209 139.2160061,-34.927187422 139.215925634,-34.927103939 139.215780795,-34.927020287 139.215611815,-34.927009307 139.21517998,-34.927002685 139.214933217,-34.92703571 139.214801788,-34.927048869 139.214485288,-34.927015929 139.214415634,-34.926987262 139.214343131,-34.926965302 139.21418488,-34.926956501 139.213836193,-34.926991705 139.213702083,-34.926985083 139.21358943,-34.926894978 139.213573337,-34.926754162 139.213503599,-34.926655339 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

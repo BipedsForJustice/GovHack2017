@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Houghton Soldiers Memorial Walk</name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Oval</name>
+		<styleUrl>#trailhead</styleUrl>
+        <Point>
+          <coordinates>138.7595125430135,-34.82938588503556</coordinates>
+        </Point>
+      </Placemark>
+	  <Placemark>
+        <name>Memorial, Horn Street</name>
+		<styleUrl>#trailhead</styleUrl>
+        <Point>
+          <coordinates>138.7625653864597,-34.82853876563886</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+	<Placemark>
+		<name>Soldiers Memorial Walk, Houghton</name>
+		<styleUrl>#wsa_line</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				138.7595125430135,-34.82938588503556,0 138.7597965797718,-34.8294991361578,0 138.759930519638,-34.8295847892739,0 138.7599508935897,-34.82963448678498,0 138.7599747689765,-34.82966788224208,0 138.7600143754984,-34.82968498654124,0 138.7600644643425,-34.82969199240816,0 138.7601258625319,-34.82967303547086,0 138.7601314295737,-34.82967066502231,0 138.7602004023587,-34.82962903778122,0 138.7602574220723,-34.82960179112416,0 138.7604010221546,-34.82952205607029,0 138.7605009669524,-34.82948844782118,0 138.7606134999632,-34.82944549038169,0 138.7606683621938,-34.82940714822791,0 138.7607245149056,-34.82935313451945,0 138.7607972248472,-34.82922261124506,0 138.760894542944,-34.82907075514569,0 138.7610354475845,-34.828918549024,0 138.7611239415256,-34.82888103050318,0 138.7612193041836,-34.82885944889411,0 138.7612505116561,-34.82881039528675,0 138.7612720524239,-34.82874057750527,0 138.761297077114,-34.82871234263013,0 138.7613558866517,-34.82866658639805,0 138.7613965351389,-34.82871672500718,0 138.7614798686781,-34.82872639101885,0 138.7616662889229,-34.82850518855029,0 138.7617140527651,-34.82844315038889,0 138.7618605205732,-34.82843437712293,0 138.7618803455279,-34.82842348387756,0 138.7620376682225,-34.82842931095034,0 138.7620848470002,-34.82842368751749,0 138.7621583582408,-34.8284681678981,0 138.7624324532407,-34.82851611367283,0 138.7625653864597,-34.82853876563886,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

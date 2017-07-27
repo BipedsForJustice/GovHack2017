@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Prospect Hill trail]]></name>
+		<Style id="wsa_line">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="waypoint">
+			<IconStyle>
+				<Icon>
+					<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="junction">
+			<IconStyle>
+				<Icon>
+					<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="trailhead">
+			<IconStyle>
+				<Icon>
+					<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="carpark">
+			<IconStyle>
+				<Icon>
+					<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="achtung">
+			<IconStyle>
+				<Icon>
+					<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Prospect Hill lookout</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>137.745289207,-35.84317999</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prospect Hill trailhead</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>137.746783197,-35.842397204</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Prospect Hill trail]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff0000e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>137.746783197,-35.842397204 137.746576667,-35.84252771 137.746466696,-35.842534164 137.746383464,-35.842516813 137.746303082,-35.842438526 137.746249437,-35.842403742 137.746182382,-35.842386307 137.746174335,-35.842347164 137.746120691,-35.842318917 137.746080458,-35.842275498 137.746013403,-35.842242809 137.745892704,-35.842242809 137.745798826,-35.842262423 137.745678127,-35.842247168 137.745613838,-35.842277594 137.745527923,-35.842555873 137.745458186,-35.84291026 137.745407224,-35.843129866 137.745289207,-35.84317999 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Investigator Trail, Kangaroo Island</name>
+		<Style id="wsa_line">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="waypoint">
+			<IconStyle>
+				<Icon>
+					<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="junction">
+			<IconStyle>
+				<Icon>
+					<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="trailhead">
+			<IconStyle>
+				<Icon>
+					<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="carpark">
+			<IconStyle>
+				<Icon>
+					<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="achtung">
+			<IconStyle>
+				<Icon>
+					<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Folder>
+			<name>Investigator Trail, Kangaroo Island</name>
+			<Placemark>
+				<name>Commemorative plaque, carpark trailhead</name>
+				<styleUrl>#carpark</styleUrl>
+				<Point>
+					<coordinates>137.75434903800488,-35.84350596182048,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Start of Investigator Trail, Kangaroo Island</name>
+				<styleUrl>#trailhead</styleUrl>
+				<Point>
+					<coordinates>137.75434903800488,-35.84350596182048,7.35</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cross Hog Bay Road</name>
+				<styleUrl>#waypoint</styleUrl>
+				<Point>
+					<coordinates>137.74972499348223,-35.84261303767562,21.29</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trailhead off Muston Road</name>
+				<styleUrl>#trailhead</styleUrl>
+				<Point>
+					<coordinates>137.7537248,-35.8431669,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Prospect Hill lookout</name>
+				<styleUrl>#waypoint</styleUrl>
+				<Point>
+					<coordinates>137.7452892,-35.84318,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Prospect Hill trailhead</name>
+				<styleUrl>#trailhead</styleUrl>
+				<Point>
+					<coordinates>137.7467832,-35.8423972,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Prospect Hill carpark</name>
+				<styleUrl>#carpark</styleUrl>
+				<Point>
+					<coordinates>137.7469629,-35.8424168,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Investigator Trail, Kangaroo Island</name>
+				<styleUrl>#wsa_line</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>137.75434903800488,-35.84350596182049,7.35 137.75430302135646,-35.843399008736014,6.39 137.75424200110137,-35.843295995146036,6.87 137.7541809808463,-35.84324302151799,6.39 137.75407402776182,-35.843162974342704,6.39 137.75401300750673,-35.84307102486491,5.91 137.75393698364496,-35.84306297823787,6.39 137.75389096699655,-35.843140007928014,7.83 137.75378401391208,-35.843162974342704,8.79 137.75367697700858,-35.84317001514137,7.35 137.75354001671076,-35.84317403845489,8.79 137.75344798341393,-35.84320396184921,7.83 137.75329601950943,-35.843207985162735,8.31 137.75318898260596,-35.843227012082934,8.31 137.75308202952147,-35.843188958242536,8.79 137.75299100205302,-35.84315098822117,9.27 137.75288396514952,-35.843078987672925,9.27 137.7527470048517,-35.84307102486491,8.79 137.75259403511882,-35.84306297823787,8.31 137.75247199460864,-35.8430440351367,8.79 137.75237996131182,-35.842972034588456,8.31 137.75222799740732,-35.84294102154672,9.75 137.7520900312811,-35.84291101433337,10.23 137.75193798355758,-35.84294496104121,9.75 137.75180102325976,-35.842887964099646,9.27 137.75170898996294,-35.84285703487694,8.79 137.75158703327182,-35.84281504154205,8.79 137.7514649927616,-35.842823004350066,10.23 137.75134303607047,-35.842796014621854,12.63 137.75126600638032,-35.842800037935376,15.52 137.75120498612523,-35.84287296049297,17.44 137.75108302943408,-35.84287296049297,18.4 137.7509609889239,-35.84284999407828,18.88 137.75082402862608,-35.842818981036544,19.36 137.7507019881159,-35.842800037935376,19.36 137.75058003142476,-35.8427850343287,19.84 137.75048799812794,-35.84277698770166,19.84 137.75045799091458,-35.842754021286964,19.84 137.75029001757503,-35.84270096383989,19.84 137.75021399371326,-35.842647990211844,20.32 137.75012196041644,-35.8426090143621,20.81 137.7499850001186,-35.842586969956756,20.81 137.74983203038573,-35.84257900714874,20.81 137.74972499348223,-35.84261303767562,21.29 137.749725,-35.842613,0.0 137.7496585,-35.8427886,0.0 137.7496344,-35.8428647,0.0 137.7495593,-35.8429212,0.0 137.7493152,-35.8428821,0.0 137.7485588,-35.8427081,0.0 137.7476656,-35.8425103,0.0 137.7473786,-35.8424385,0.0 137.7471104,-35.8423342,0.0 137.7469844,-35.8423189,0.0 137.7468744,-35.8423581,0.0 137.746802,-35.8423907,0.0</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<name>Prospect Hill trail</name>
+				<styleUrl>#wsa_line</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>137.7467832,-35.8423972,0.0 137.7465767,-35.8425277,0.0 137.7464667,-35.8425342,0.0 137.7463835,-35.8425168,0.0 137.7463031,-35.8424385,0.0 137.7462494,-35.8424037,0.0 137.7461824,-35.8423863,0.0 137.7461743,-35.8423472,0.0 137.7461207,-35.8423189,0.0 137.7460805,-35.8422755,0.0 137.7460134,-35.8422428,0.0 137.7458927,-35.8422428,0.0 137.7457988,-35.8422624,0.0 137.7456781,-35.8422472,0.0 137.7456138,-35.8422776,0.0 137.7455279,-35.8425559,0.0 137.7454582,-35.8429103,0.0 137.7454072,-35.8431299,0.0 137.7452892,-35.84318,0.0</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>

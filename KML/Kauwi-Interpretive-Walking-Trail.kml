@@ -1,0 +1,113 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Kauwi Interpretive Walking Trail]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Abrupt end of Kauwi Interpretive Walking Trail</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.483189968,-35.093885958,38.678</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Interpretive signage about Cultural Water</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.481398756,-35.09525598</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Interpretive signage about Kondolli the whale from the Dreaming story</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.480590992,-35.097087258</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Interpretive signage about plants</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.486649012,-35.098442025</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trailhead of Kauwi Interpretive Walking Trail</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.488215003,-35.098600024,75.655</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Kauwi Interpretive Walking Trail]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ffe7a9ff</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.488174016,-35.098602036,75.6 138.488051975,-35.098578986,75.12 138.487915015,-35.098590972,74.64 138.487777971,-35.098602036,75.12 138.487594994,-35.098605976,74.16 138.487473037,-35.098605976,74.16 138.487349991,-35.098602036,73.2 138.487228034,-35.098609999,72.24 138.48709099,-35.098594995,72.24 138.486984037,-35.098553002,72.24 138.486877,-35.098494999,71.76 138.486754959,-35.098445965,71.27 138.486649012,-35.098442025,72.24 138.486664016,-35.098438002,71.27 138.486571983,-35.098403972,71.76 138.486495959,-35.098376982,71.76 138.486389006,-35.098381005,71.27 138.486251961,-35.098370025,70.31 138.486115001,-35.098366002,69.83 138.485992039,-35.098366002,68.87 138.485869998,-35.098361978,68.39 138.485763967,-35.098366002,67.43 138.485641005,-35.098372959,66.47 138.485534973,-35.098366002,65.51 138.485413017,-35.098315962,64.55 138.485320983,-35.098270029,64.55 138.48521403,-35.098231975,63.58 138.485123003,-35.098194005,62.62 138.485015966,-35.098163998,62.14 138.484909013,-35.098125022,60.7 138.484786972,-35.098102977,60.7 138.484665016,-35.098083029,59.74 138.484527972,-35.098068025,59.74 138.484406015,-35.098048998,60.22 138.484282969,-35.098018991,60.7 138.484146008,-35.097999964,60.22 138.484023968,-35.097984038,59.74 138.483887007,-35.097965011,60.22 138.483764967,-35.097954031,60.7 138.48364301,-35.097945984,60.7 138.483535973,-35.097930981,60.7 138.483368,-35.097912038,61.18 138.48324596,-35.097897034,60.7 138.483124003,-35.097888988,60.7 138.483001962,-35.097878007,60.7 138.482880006,-35.097873984,60.7 138.482757965,-35.097857974,60.22 138.482619999,-35.097846994,59.74 138.482497958,-35.097836014,59.74 138.482376002,-35.097820004,58.78 138.482268965,-35.097809024,57.82 138.482147008,-35.097809024,57.34 138.48199496,-35.097800978,55.89 138.481873004,-35.097797038,55.89 138.481750041,-35.097794021,54.45 138.481628001,-35.097785974,53.01 138.48152197,-35.097774994,53.01 138.481415017,-35.097763008,52.53 138.48130798,-35.097736018,51.57 138.481186023,-35.097697964,51.09 138.481048979,-35.097649014,50.13 138.480972033,-35.097587993,49.65 138.480881006,-35.097526973,48.2 138.480788972,-35.097438963,47.24 138.480728036,-35.097354976,47.72 138.480682019,-35.09727099,47.24 138.480652012,-35.097156996,46.28 138.480590992,-35.097088013,46.76 138.480590992,-35.09710704,45.8 138.480590992,-35.09708399,46.28 138.480605995,-35.097000003,45.32 138.480590992,-35.096911993,44.36 138.480605995,-35.096793976,44.36 138.480620999,-35.096699009,42.92 138.480652012,-35.096595995,42.92 138.480682019,-35.096492982,41.95 138.480728036,-35.096401032,41.95 138.480773969,-35.096302042,42.44 138.480819985,-35.096202968,40.51 138.480896009,-35.096103977,40.51 138.480942026,-35.096015967,40.99 138.481002962,-35.095921,40.51 138.481063982,-35.095837014,40.51 138.481109999,-35.095741041,40.99 138.481171019,-35.09564599,40.03 138.48123204,-35.095554041,40.03 138.481276967,-35.095473994,40.99 138.481353996,-35.095364023,40.03 138.481400013,-35.095252963,40.03 138.481461033,-35.095222034,40.99 138.481536973,-35.095150033,40.51 138.481597994,-35.095074009,40.03 138.481689021,-35.095012989,40.03 138.481795974,-35.094939983,39.55 138.481888007,-35.094867982,39.07 138.481979035,-35.094806962,39.55 138.482055981,-35.094746025,38.59 138.482147008,-35.094691962,39.55 138.482239041,-35.094638988,39.07 138.482329985,-35.094562965,39.55 138.482437022,-35.094504962,39.07 138.482558979,-35.094456011,39.55 138.482697029,-35.094398009,40.03 138.482802976,-35.094345035,40.03 138.482863996,-35.094269011,39.55 138.482941026,-35.094176978,39.55 138.482971033,-35.094116041,40.03 138.482971033,-35.094092991,39.07 138.483046973,-35.094028031,39.07 138.483124003,-35.093963994,38.59 138.483185023,-35.093886964,38.59 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

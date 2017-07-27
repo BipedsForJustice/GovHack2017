@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Little Quarry Loop, Anstey Hill Recreation Park]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Carpark adjacent North East Road</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.731367141,-34.822140718</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carpark, picnic area and trailhead</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.733498994,-34.824059,258</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gate 1, North East Road</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.731484488,-34.822295867</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toilets</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.731570989,-34.822450094</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Little Quarry Loop]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff00e64c</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.733637631,-34.824014157,263 138.733784566,-34.823894966,263 138.733808622,-34.823824475,264 138.733822284,-34.823774518,263.8 138.733840557,-34.823731519,264 138.733962178,-34.823622471,264.4 138.733970057,-34.823621046,264.6 138.734017918,-34.823591709,264.6 138.734064689,-34.823548459,264.8 138.734075334,-34.823527336,265 138.734127553,-34.823436141,265.4 138.734325869,-34.823492551,265.4 138.734527538,-34.823565893,264.6 138.734749993,-34.823590871,264.8 138.734972365,-34.82357176,265.2 138.735189205,-34.823508058,265.6 138.735267827,-34.823524067,266.2 138.735493552,-34.823529599,266.4 138.735727156,-34.823510405,266.4 138.735947851,-34.823473524,266.6 138.736141389,-34.823401859,267.2 138.736346746,-34.823477296,267.4 138.736448586,-34.823635966,267.6 138.736403659,-34.823821457,266.8 138.736337777,-34.823993621,267 138.736152286,-34.823903684,266.6 138.736051703,-34.823868815,266.4 138.735899152,-34.823884405,266 138.735673092,-34.823839227,265.8 138.735457091,-34.823854566,265.4 138.73522508,-34.823883986,265 138.735050317,-34.8239813,265 138.73502953,-34.823995801,265.2 138.734835992,-34.824105687,266 138.734610099,-34.824111387,266 138.734392924,-34.824193865,266.2 138.734308183,-34.824223453,266 138.734292844,-34.824231416,266.2 138.734251102,-34.824246923,266.2 138.734033424,-34.824313978,266.4 138.733852543,-34.824336022,265.2 138.733795378,-34.824322443,265 138.733726563,-34.824253963,264.4 138.733724635,-34.824185818,264 138.733690437,-34.824089175,263.6 138.733643582,-34.82404408,263.4 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

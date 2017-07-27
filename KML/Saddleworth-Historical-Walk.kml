@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Saddleworth Heritage Walking Trail (Saddleworth Historical Walk)</name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Trailhead, Pioneer Park</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <coordinates>
+            138.7810537,-34.0803689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saddleworth Heritage Walking Trail</name>
+        <styleUrl>#wsa_line</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            138.7810403,-34.0804,0
+            138.7809733,-34.0805266,0
+            138.7803778,-34.0827548,0
+            138.7834784,-34.085245,0
+            138.7851736,-34.0823416,0
+            138.7864959,-34.0828925,0
+            138.786622,-34.082948,0
+            138.7852943,-34.0851673,0
+            138.7842107,-34.0859892,0
+            138.7801445,-34.0827925,0
+            138.7807238,-34.0804866,0
+            138.7806836,-34.0803933,0
+            138.7798172,-34.0800267,0
+            138.7806407,-34.0786116,0
+            138.7816197,-34.0783917,0
+            138.7817323,-34.0788138,0
+            138.7820247,-34.0786827,0
+            138.7822473,-34.0784983,0
+            138.7823439,-34.0785827,0
+            138.7819523,-34.0789271,0
+            138.7815821,-34.0793936,0
+            138.7810725,-34.0803422,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

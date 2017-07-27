@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Inner Harbour Loop Path</name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder>
+      <name>Waypoints</name>
+		<Placemark>
+			<name>Harts Mill Playground</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>138.498655,-34.843891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>McLarens Wharf</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>138.504146,-34.842263,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>North West Precinct</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>138.49538,-34.841862,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fletcher’s Slip</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>138.498738,-34.840797,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pocket Park #2</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>138.496335,-34.842092,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pocket Park #2</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>138.495868,-34.843356,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ethelton Railway Station</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>138.494953,-34.848541,0</coordinates>
+			</Point>
+		</Placemark>
+    </Folder>
+    <Folder>
+		<name>Tracks</name>
+		<Placemark>
+			<name>Inner Harbour Loop Path</name>
+			<description>The shared-use cycling and pedestrian loop path provides a 3.5km route around the Inner Harbour and riverfront, incorporating a cultural walking trail, seating, shade and infrastructure upgrades. The path provides opportunities for active lifestyles, a chance to relax, enjoy views of the river and the Port and hopefully some dolphin-watching too!</description>
+			<styleUrl>#wsa_line</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					138.498325,-34.843776,0 138.501664,-34.843144,0 138.501763,-34.843434,0 138.501943,-34.843399,0 138.501573,-34.842191,0 138.501171,-34.840971,0 138.501117,-34.840697,0 138.501141,-34.84052,0 138.501208,-34.840352,0 138.501238,-34.840311,0 138.501222,-34.840271,0 138.501144,-34.840252,0 138.501074,-34.840261,0 138.500363,-34.84037,0 138.498647,-34.840594,0 138.498561,-34.840594,0 138.498459,-34.840523,0 138.498411,-34.840448,0 138.498319,-34.840037,0 138.49825,-34.840009,0 138.497673,-34.840155,0 138.496844,-34.840274,0 138.496139,-34.840383,0 138.496238,-34.840863,0 138.496469,-34.841887,0 138.496469,-34.841931,0 138.496434,-34.841966,0 138.496128,-34.842008,0 138.495964,-34.841995,0 138.495889,-34.841931,0 138.495862,-34.841829,0 138.495838,-34.841792,0 138.495803,-34.841774,0 138.495562,-34.841807,0 138.495468,-34.841858,0 138.495423,-34.841968,0 138.495431,-34.842461,0 138.495498,-34.843133,0 138.495533,-34.843273,0 138.495779,-34.843753,0 138.495589,-34.844511,0 138.494774,-34.844635,0 138.494902,-34.845217,0 138.495605,-34.845137,0 138.49568,-34.845837,0 138.495862,-34.846603,0 138.495938,-34.84674,0 138.496082,-34.84791,0 138.49572,-34.847954,0 138.495696,-34.848001,0 138.495626,-34.848044,0 138.495562,-34.848063,0 138.495162,-34.848113,0 138.495101,-34.848119,0 138.495007,-34.84815,0 138.495001,-34.848109,0 138.494988,-34.848029,0 138.494961,-34.848032,0 138.494977,-34.848147,0 138.494739,-34.848156,0 138.494739,-34.848094,0 138.494588,-34.848106,0 138.4945,-34.847353,0 138.494449,-34.84692,0 138.494358,-34.846609,0 138.49432,-34.846565,0 138.494143,-34.846531,0 138.494025,-34.846503,0 138.493824,-34.846494,0 138.494001,-34.846578,0 138.494081,-34.8466,0 138.494602,-34.846631,0 138.495034,-34.846606,0 138.495466,-34.846528,0 138.495793,-34.846438,0 138.49623,-34.846282,0 138.496788,-34.846086,0 138.497365,-34.845893,0 138.497818,-34.845753,0 138.498266,-34.845597,0 138.498403,-34.844726,0 138.49825,-34.843885,0 138.49826,-34.843817,0 138.498298,-34.843776,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

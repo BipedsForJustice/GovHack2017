@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Ingala Falls</name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffefae00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Ingala Falls</name>
+		<open>1</open>
+		<Placemark>
+			<name>Ingala Falls walking path</name>
+			<styleUrl>#wsa_line</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					138.3454054329198,-35.5304021975022,0 138.3453078704972,-35.53038246593203,0 138.3452815872792,-35.53032114604672,0 138.3452430863813,-35.53026465286918,0 138.3451897869286,-35.53020594773675,0 138.3451227482497,-35.53018331528188,0 138.3450230639964,-35.53016612926059,0 138.3449333465738,-35.53019643282438,0 138.3449251522885,-35.53024881604613,0 138.34489243742,-35.53032738683093,0 138.3448131601931,-35.53041085029923,0 138.3447359785589,-35.53045633178434,0 138.3445756218899,-35.53058265140856,0 138.3444507205437,-35.53067651798756,0 138.3443368606503,-35.53071946541159,0 138.3442034480989,-35.53081579254008,0 138.3441157554542,-35.53083473981168,0 138.3439108073814,-35.53086555120539,0 138.3438265006061,-35.53090971905683,0 138.3436437877483,-35.53096257947983,0 138.3434976414906,-35.53102977218727,0 138.343326939194,-35.53112348444839,0 138.3432904423125,-35.53112638891392,0 138.3432462130356,-35.53112888287625,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ingala Falls</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>138.3432368766967,-35.53113615469609,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ingala Falls carpark and picnic area</name>
+			<styleUrl>#carpark</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>138.345452694746,-35.53040382590004,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

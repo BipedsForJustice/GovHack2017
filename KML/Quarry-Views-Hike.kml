@@ -1,0 +1,113 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Quarry Views Hike, Anstey Hill Recreation Park]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Carpark adjacent North East Road</name>
+        <styleUrl>#carpark</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.731367141,-34.822140718</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carpark, picnic area and trailhead</name>
+        <styleUrl>#carpark</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.733498994,-34.824059,258</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gate 1, North East Road</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.731484488,-34.822295867</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toilets</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.731570989,-34.822450094</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trails Info Sign, Gate 1</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.731582388,-34.822478676</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Quarry Views Hike]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff007326</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.733475022,-34.824093031 138.733626986,-34.824135024 138.733657999,-34.824203001 138.733688006,-34.824256981 138.733581975,-34.824298974 138.733550962,-34.824368041 138.733626986,-34.824448004 138.733688006,-34.824454961 138.733780039,-34.824524028 138.733901996,-34.824573984 138.73403904,-34.824524028 138.734343974,-34.824493015 138.73454296,-34.824500978 138.734695008,-34.824566022 138.734711017,-34.824696025 138.734695008,-34.824810019 138.734711017,-34.824898029 138.734832974,-34.824901968 138.734955015,-34.824913032 138.735091975,-34.824909009 138.735214015,-34.824889982 138.735335972,-34.824867016 138.735458013,-34.824841032 138.735579969,-34.824810019 138.735718019,-34.824786969 138.735839976,-34.824756961 138.735962017,-34.824738018 138.73606897,-34.824687978 138.736176006,-34.824645985 138.736267034,-34.824581025 138.736358983,-34.824539032 138.736481024,-34.824485974 138.736587977,-34.824428977 138.736648997,-34.824337028 138.736679005,-34.824249018 138.736679005,-34.824146004 138.736679005,-34.824042991 138.736694008,-34.823951963 138.736694008,-34.823879041 138.736740025,-34.823788013 138.736755028,-34.823665973 138.736755028,-34.82355902 138.736710018,-34.823460029 138.736648997,-34.823360033 138.73654196,-34.823326003 138.736403994,-34.823291972 138.736282038,-34.823260959 138.736176006,-34.823200023 138.736023037,-34.823174039 138.735885993,-34.823146965 138.735764036,-34.823161969 138.735625986,-34.823143026 138.735489026,-34.823123999 138.735320969,-34.823067002 138.735199012,-34.823013023 138.735061968,-34.823025009 138.734940011,-34.823031966 138.734787041,-34.823035989 138.734665001,-34.823040012 138.734528041,-34.823029032 138.734389991,-34.823025009 138.73425303,-34.823005982 138.734099977,-34.822978992 138.73397802,-34.822947979 138.733840976,-34.822914032 138.733704016,-34.822884025 138.733596979,-34.822926018 138.733459013,-34.822989972 138.733397992,-34.823086029 138.733352982,-34.823195999 138.733397992,-34.823231036 138.733459013,-34.823207986 138.733429005,-34.82331804 138.733352982,-34.823424993 138.733231025,-34.823475033 138.733170005,-34.823441003 138.733077971,-34.823379982 138.733002031,-34.823279986 138.732986022,-34.823165992 138.733002031,-34.823044036 138.733002031,-34.823128022 138.732971018,-34.823231036 138.732971018,-34.823341006 138.733017035,-34.823456006 138.733046958,-34.823562959 138.733092975,-34.823662033 138.733170005,-34.823772004 138.733231025,-34.823867977 138.733321968,-34.823917011 138.733382989,-34.823855991 138.733505029,-34.823825983 138.733626986,-34.823921034 138.733581975,-34.824027987 138.733475022,-34.824093031 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

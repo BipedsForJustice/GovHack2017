@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+	xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>Riverbend Heritage Trail</name>
+    <snippet>Created 02/27/14 11:23:05</snippet>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>01. Start</name>
+        <TimeStamp><when>2014-02-23T08:52:57Z</when></TimeStamp>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <coordinates>139.454571,-35.257583</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>02. Ferry</name>
+        <TimeStamp><when>2014-02-23T10:26:40Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.453403,-35.256292</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>03. Choose route at levee bank</name>
+        <TimeStamp><when>2014-02-23T10:28:55Z</when></TimeStamp>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <coordinates>139.451629,-35.258020</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>03A. End of 3A levee bank route</name>
+        <description>Levee bank Route: when leaving ferry turn left immediately and follow levee bank 11km,</description>
+        <TimeStamp><when>2014-02-23T10:35:30Z</when></TimeStamp>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <coordinates>139.380212,-35.311663</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>03A. Levee Bank Route</name>
+        <TimeStamp><when>2014-02-27T00:45:36Z</when></TimeStamp>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <coordinates>139.452556,-35.259220</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>03B. Wellington - Jervois Road Route</name>
+        <TimeStamp><when>2014-02-27T00:45:57Z</when></TimeStamp>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <coordinates>139.451720,-35.259520</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>04. Junction levee bank access rd &amp; Wellington to Jerviois Rd</name>
+        <description>Continue towards Wellington through Murrundi Reserve</description>
+        <TimeStamp><when>2014-02-23T10:50:07Z</when></TimeStamp>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <coordinates>139.375397,-35.312203</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05. Exit reserve</name>
+        <TimeStamp><when>2014-02-23T10:57:36Z</when></TimeStamp>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <coordinates>139.376432,-35.318283</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>06. Wellington Ferry - east side</name>
+        <description>Walk along Wellington Rd towards Princes Highway for approx 700m and turn left into George Mason St</description>
+        <TimeStamp><when>2014-02-23T11:03:58Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.393054,-35.324591</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>06. Wellington Ferry - west side</name>
+        <description> Take the ferry near the old Wellington court house.</description>
+        <TimeStamp><when>2014-02-23T10:59:53Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.383874,-35.331871</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>07</name>
+        <description>Locate RBHT sign on R after 300m and follow track 250m E</description>
+        <TimeStamp><when>2014-02-23T11:07:23Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.394042,-35.322348</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>08/09</name>
+        <description>Walk N for approx 70 m to entrance of Pangarinda arboretum.</description>
+        <TimeStamp><when>2014-02-23T11:18:00Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.396621,-35.322463</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>08A</name>
+        <description>Entrance to the Pangorinda Arboretum</description>
+        <TimeStamp><when>2014-02-23T11:13:31Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.396671,-35.321934</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10</name>
+        <description>Continue east following Riverbend Heritage Trail sign towards the old (1800s) cemetery.</description>
+        <TimeStamp><when>2014-02-23T11:23:06Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.398528,-35.323512</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11</name>
+        <description>Walk E on Wellington Rd. then L (Nth) on Princes Highway for 900m to RBHT sign</description>
+        <TimeStamp><when>2014-02-23T11:34:34Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.402101,-35.325108</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11A</name>
+        <description>Walk E on Wellington Rd then L (Nth) on Princes Hwy for 900m</description>
+        <TimeStamp><when>2014-02-23T11:28:27Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.402101,-35.325108</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11B</name>
+        <TimeStamp><when>2014-02-23T11:40:50Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.404039,-35.325248</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11C</name>
+        <description>Turn left (north) on Princes Highway for 900m to RBHT sign</description>
+        <TimeStamp><when>2014-02-23T11:44:12Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.404934,-35.324954</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11D</name>
+        <description>RBHT sign for entry into Mowantjie-Willauwar Conservation Pk.</description>
+        <TimeStamp><when>2014-02-23T11:48:37Z</when></TimeStamp>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <coordinates>139.409474,-35.318137</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>12</name>
+        <description>Walk NE through the conservation park along former road, to Placid Estate Rd.</description>
+        <TimeStamp><when>2014-02-23T11:50:40Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.423204,-35.307046</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>14</name>
+        <description> Locate house no. 6 on Hector Road and follow track along its fence - NW to river.</description>
+        <TimeStamp><when>2014-02-23T11:58:46Z</when></TimeStamp>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <coordinates>139.439665,-35.295092</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>15</name>
+        <description>RH Turn along unsealed river track. Before steep descent to river, turn R (NE).Walk 5 km to Start.</description>
+        <TimeStamp><when>2014-02-23T12:11:26Z</when></TimeStamp>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <coordinates>139.438637,-35.293636</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cemetery</name>
+        <description>Old historic (1800s) cemetery. Continue to 11 (Entrance to the cemetery from Wellington Road)</description>
+        <TimeStamp><when>2014-02-23T11:25:04Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.400823,-35.323796</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jervois</name>
+        <TimeStamp><when>2014-02-27T00:46:29Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.438992,-35.266055</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old School Site</name>
+        <description>Monument for old school</description>
+        <TimeStamp><when>2014-02-23T12:30:20Z</when></TimeStamp>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>139.395542,-35.290059</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

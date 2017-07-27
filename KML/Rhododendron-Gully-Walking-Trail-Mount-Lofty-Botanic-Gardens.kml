@@ -1,0 +1,74 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name><![CDATA[Rhododendron Gully Walking Trail, Mount Lofty Botanic Gardens]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Rhododendron Gully Trailhead (lower)</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.715466,-34.98762304,543.18</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rhododendron Gully Trailhead (upper)</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.711273959,-34.98951098,634.117</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Rhododendron Gully Walking Trail]]></name>
+        <Style>
+          <LineStyle>
+            <color>ff0000e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.71537799,-34.987633014,543.28 138.715271037,-34.987679031,545.2 138.715164,-34.987724042,546.17 138.71510298,-34.987808028,548.57 138.714951016,-34.987914981,550.97 138.714797962,-34.987934008,554.34 138.714644993,-34.987980025,556.26 138.714508032,-34.988032999,558.66 138.714264035,-34.988128971,562.03 138.714126991,-34.988185968,563.95 138.714005034,-34.988235002,567.8 138.713866984,-34.988255035,569.72 138.713684008,-34.988315972,571.64 138.713516034,-34.988350002,573.56 138.713455014,-34.988303985,574.53 138.71331797,-34.988303985,576.93 138.713272037,-34.988350002,579.33 138.713211017,-34.988380009,582.22 138.713134993,-34.988396019,584.62 138.71310398,-34.988457039,585.58 138.713149996,-34.988525016,586.06 138.71318101,-34.988574972,585.58 138.713073973,-34.988552006,587.98 138.712936006,-34.988556029,589.91 138.712890996,-34.988598023,593.27 138.712890996,-34.988677986,596.15 138.712769039,-34.988625012,596.15 138.712615985,-34.988593999,595.19 138.712433008,-34.988625012,595.19 138.712280039,-34.988662982,598.08 138.712189011,-34.98871604,601.92 138.712173002,-34.988686033,600.96 138.712081974,-34.98862803,601.44 138.711960018,-34.988673963,605.77 138.711837977,-34.988770019,609.13 138.711777041,-34.988860963,612.98 138.711700011,-34.988998007,615.38 138.711577971,-34.98909004,619.71 138.711547963,-34.989204034,622.59 138.711623987,-34.989300007,624.51 138.711670004,-34.989418024,626.44 138.711655,-34.989436967,628.36 138.71150203,-34.989436967,628.84 138.71137999,-34.989455994,630.76 138.711288041,-34.989506034,633.17 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,113 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Michael Perry Botanic Reserve]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Andrews Walk entrance gate</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.668977618,-34.93600904</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>End Anderson Walk</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.672389975,-34.93707899,180.4</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old pump</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.674414959,-34.93901303,188.8</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Picnic area</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.672797,-34.937990019,177.2</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toilets</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.672300959,-34.937556004,173.8</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Loop of Michael Perry Botanic Reserve]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ffc47500</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.668979965,-34.936009962 138.669550018,-34.936029995 138.669601986,-34.936038041 138.669617325,-34.936138373 138.66967801,-34.936249014 138.669915134,-34.936495693 138.670124263,-34.936617734 138.670206992,-34.936636006 138.670281172,-34.936733069 138.670372367,-34.936795766 138.670503795,-34.936854104 138.670836976,-34.937015958 138.671065718,-34.937118972 138.671370987,-34.937293986 138.671446592,-34.937377386 138.671506941,-34.937481824 138.671564609,-34.937570924 138.671708107,-34.937633621 138.671927964,-34.937711572 138.671982028,-34.937759014 138.672195012,-34.93779799 138.672329038,-34.937858926 138.672481924,-34.938018266 138.672607988,-34.938080963 138.672705889,-34.938154723 138.672728688,-34.938233765 138.672896996,-34.938357985 138.67297411,-34.938495532 138.673076034,-34.938589996 138.673238307,-34.938740702 138.673415333,-34.938838519 138.673658073,-34.938943963 138.673864603,-34.939007834 138.674059063,-34.939078242 138.674246818,-34.939170526 138.67435813,-34.939299105 138.674434572,-34.939326597 138.674531132,-34.939353 138.674681336,-34.939255184 138.674717462,-34.93920573 138.674718887,-34.939147392 138.674670607,-34.939101292 138.674464077,-34.939008923 138.674410433,-34.938948406 138.674301803,-34.938881435 138.674091166,-34.938797783 138.673868626,-34.938680185 138.673656732,-34.938579015 138.673582971,-34.938510871 138.673471659,-34.938395368 138.673314834,-34.938299814 138.673259765,-34.938241476 138.673034459,-34.93803151 138.672852069,-34.937935872 138.672465831,-34.937679721 138.672239184,-34.937480735 138.67214933,-34.937415859 138.672066182,-34.937396077 138.671985716,-34.937392808 138.671854287,-34.937364226 138.67161599,-34.937247969 138.671598975,-34.937241012 138.671775162,-34.937033309 138.671850264,-34.936960721 138.671948165,-34.936936498 138.672008514,-34.936946388 138.672201633,-34.936980503 138.67232996,-34.936989974 138.672229964,-34.936740026 138.672200041,-34.936710019 138.672180008,-34.936670037 138.672150001,-34.936659979 138.672089987,-34.936629971 138.671380039,-34.936320009 138.670990029,-34.936139965 138.670849968,-34.936090009 138.670790037,-34.936069977 138.670719964,-34.936060002 138.670670008,-34.936050028 138.670600019,-34.936050028 138.670430034,-34.936039969 138.66992997,-34.936029995 138.669759985,-34.93602002 138.669774905,-34.936019601 138.669774234,-34.936009208 138.669915721,-34.935999317 138.669912368,-34.935978362 138.669821173,-34.935954725 138.669778341,-34.935895381 138.669744059,-34.935819525 138.669654876,-34.93557821 138.669665605,-34.93549129 138.669687733,-34.935390204 138.66969578,-34.935225332 138.66969578,-34.935219213 138.668978959,-34.935296159 138.668979965,-34.936009962 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

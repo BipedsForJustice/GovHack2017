@@ -1,0 +1,227 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Melrose Nature Hike]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Bench and a lookout</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.180650035,-32.824274031,493.836</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brewery St Trailhead</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.18260327,-32.827807171</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carpark near tennis courts, off Joes Road</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.185992241,-32.825376419</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clear view of Cathedral Rock</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.174581034,-32.825302994,470.254</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrance to walking trail from campsites</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.184608053,-32.824313259</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ford</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.18205501,-32.827706672</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junction to sidetrip</name>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.179271966,-32.827587985,422.441</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junction, follow fire south/south-west track now</name>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.178963009,-32.824774012,481.365</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junction, Melrose Nature Hike to left, Heysen Trail to right</name>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.18348404,-32.82254803,439.3</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monument trailhead</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.184287027,-32.823134009,433.218</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Picnic area, near Brewery Road</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.181566009,-32.828105986,389.258</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Swingbridge, trailhead</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.185727959,-32.825258067</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Viewing point of Cathedral Rock and picnic tables</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.174846992,-32.825494017,463.917</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bald Hill Lookout</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.177446807,-32.832272211</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melrose Mine</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.175944686,-32.828903021</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Melrose Nature Hike]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff0000e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.18585813,-32.825322272 138.18554163,-32.825166788 138.185487986,-32.825209619 138.185375333,-32.825227641 138.185267961,-32.825198304 138.185141981,-32.825063104 138.185072159,-32.824846683 138.185021281,-32.824607799 138.185026562,-32.824510904 138.18469204,-32.824351983 138.18469204,-32.824351983,397.64 138.184601013,-32.82430999,398.12 138.184493976,-32.824290963,401.01 138.184387023,-32.82424897,402.93 138.184295995,-32.824191973,405.33 138.184218965,-32.824131036,407.26 138.184174038,-32.82408502,410.14 138.184097009,-32.824028023,411.58 138.184051998,-32.823956022,412.54 138.184020985,-32.823868012,414.95 138.184035989,-32.823817972,417.83 138.184113018,-32.823853008,420.71 138.184218965,-32.823868012,423.12 138.184218965,-32.823784025,425.04 138.184203962,-32.823691992,426.48 138.184234975,-32.823627032,428.89 138.184279986,-32.823531982,430.33 138.184310999,-32.823443972,431.77 138.184310999,-32.823341042,432.73 138.184295995,-32.823238028,432.73 138.184279986,-32.823135015,433.21 138.184264982,-32.823090004,433.69 138.184264982,-32.823021021,433.21 138.18425132,-32.822945919 138.184077647,-32.822872745 138.183986535,-32.822830919 138.183912439,-32.822778532 138.183800625,-32.822720278 138.183644051,-32.822646182 138.183529554,-32.822573679 138.183379686,-32.822541576 138.183208359,-32.822572673 138.183062179,-32.822612487 138.182891188,-32.822624724 138.182775266,-32.822575355 138.182676192,-32.822601926 138.182474356,-32.822683314 138.182329182,-32.822751291 138.182186102,-32.822742742 138.182124579,-32.822752297 138.181976136,-32.822864531 138.181912517,-32.822950529 138.181819478,-32.823013142 138.181574307,-32.823079526 138.181335507,-32.823193939 138.181228973,-32.823188994,465.9 138.18112202,-32.823230987,468.3 138.181014983,-32.823287984,469.74 138.180938959,-32.823364008,471.66 138.180923034,-32.823428968,475.99 138.180893026,-32.823551008,479.35 138.180862013,-32.823691992,481.76 138.18084701,-32.823784025,485.12 138.180862013,-32.823895002,486.56 138.180770986,-32.823982006,488.97 138.180724969,-32.824080996,491.37 138.180709966,-32.824180992,493.29 138.180664033,-32.824252993,493.29 138.180510979,-32.824290963,492.33 138.180435039,-32.824390037,489.93 138.180328002,-32.824474024,488.97 138.180176038,-32.82454703,488.97 138.179976968,-32.824592963,487.05 138.179855011,-32.82463504,486.56 138.179732971,-32.824677033,485.6 138.179611014,-32.82467301,482.72 138.179503977,-32.824692037,480.8 138.179458966,-32.824695976,480.32 138.179305997,-32.824715003,480.32 138.179153027,-32.824745011,480.8 138.179029226,-32.824762529 138.178908778,-32.824857915 138.178861085,-32.824991774 138.178824121,-32.825161507 138.178658495,-32.825463004 138.1785098,-32.825567191 138.17841718,-32.825641874 138.178294552,-32.82580968 138.178146025,-32.825855026,462.05 138.178023985,-32.825877992,460.13 138.177887024,-32.825843962,457.24 138.177779987,-32.825798029,454.36 138.177643027,-32.825756036,450.52 138.177504977,-32.825717982,448.11 138.177414034,-32.825763999,447.63 138.17733801,-32.825851003,447.15 138.177276989,-32.825946975,445.23 138.177258549,-32.825996177 138.177089402,-32.826060634 138.176865438,-32.82605418 138.17674038,-32.826017048 138.176550362,-32.825922836 138.176432261,-32.825892325 138.176171081,-32.825842956 138.175937897,-32.825724101 138.175683422,-32.825721838 138.175356276,-32.825678419 138.175058383,-32.825599881 138.174902312,-32.825500639 138.175058383,-32.825599881 138.175356276,-32.825678419 138.175683422,-32.825721838 138.175937897,-32.825724101 138.176171081,-32.825842956 138.176432261,-32.825892325 138.176495545,-32.82595519 138.17669319,-32.826371267 138.176999465,-32.826544102 138.177201636,-32.826650804 138.17750724,-32.826806456 138.177766576,-32.826946098 138.177979309,-32.827065457 138.178294888,-32.827212224 138.178533185,-32.827335186 138.178682718,-32.827537693 138.178751115,-32.827600474 138.178848848,-32.827632409 138.178978097,-32.827543309 138.179140957,-32.82754356 138.179297447,-32.827607933 138.179416973,-32.82767415 138.179597519,-32.827813122 138.179787453,-32.828050749 138.179987529,-32.828411842 138.180195317,-32.82865894 138.180320123,-32.828878378 138.180456161,-32.829082729 138.18057904,-32.829247853 138.180700075,-32.829358662 138.180836784,-32.829414569 138.181006936,-32.829420269 138.181150099,-32.829327649 138.181352941,-32.829095051 138.18143433,-32.828910062 138.181441873,-32.828622982 138.181509348,-32.828373956 138.181576151,-32.828105232 138.181640022,-32.827920662 138.181789136,-32.827823265 138.181972615,-32.827714467 138.182112761,-32.82770114 138.182274699,-32.827664092 138.18260327,-32.827807171 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Sidetrip to mine and lookout]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff01e600</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.179297447,-32.827607933 138.179188482,-32.827606341 138.179028891,-32.827634336 138.178932834,-32.827735674 138.178878939,-32.827870538 138.17889587,-32.828018563 138.178929901,-32.828156194 138.178917496,-32.828304889 138.178767795,-32.828377811 138.17860309,-32.828442687 138.178487504,-32.828572774 138.178425478,-32.828811742 138.178401422,-32.828960689 138.178389017,-32.829109384 138.178377701,-32.829287751 138.178277956,-32.829453461 138.178143175,-32.829620009 138.177803038,-32.829776835 138.177497098,-32.829908095 138.177342284,-32.830005912 138.177236589,-32.830166845 138.177087894,-32.830269439 138.176861499,-32.83010507 138.176697884,-32.829838945 138.176434692,-32.829514062 138.176166639,-32.829219019 138.175944686,-32.828903021 138.176166639,-32.829219019 138.176434692,-32.829514062 138.176697884,-32.829838945 138.176861499,-32.83010507 138.177087894,-32.830269439 138.176568467,-32.830663221 138.176544998,-32.830832032 138.176535694,-32.831069659 138.176639043,-32.831344083 138.176770555,-32.83158808 138.177449321,-32.832274726 138.176770555,-32.83158808 138.176639043,-32.831344083 138.176535694,-32.831069659 138.176544998,-32.830832032 138.176568467,-32.830663221 138.177087894,-32.830269439 138.177236589,-32.830166845 138.177342284,-32.830005912 138.177497098,-32.829908095 138.177803038,-32.829776835 138.178143175,-32.829620009 138.178277956,-32.829453461 138.178377701,-32.829287751 138.178389017,-32.829109384 138.178401422,-32.828960689 138.178425478,-32.828811742 138.178487504,-32.828572774 138.17860309,-32.828442687 138.178767795,-32.828377811 138.178917496,-32.828304889 138.178929901,-32.828156194 138.17889587,-32.828018563 138.178878939,-32.827870538 138.178932834,-32.827735674 138.179028891,-32.827634336 138.179188482,-32.827606341 138.179297447,-32.827607933 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Walking trail beside Willochra Creek]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ffe60000</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.182274699,-32.827664092 138.18238467,-32.827614471 138.18261534,-32.827573903 138.182832599,-32.827555882 138.183371723,-32.827585218 138.183816969,-32.827589661 138.184098601,-32.827553703 138.184251487,-32.827474829 138.184492886,-32.827400398 138.184672594,-32.827362092 138.18475306,-32.827292187 138.184884489,-32.827188503 138.185058832,-32.827006029 138.185241222,-32.826873008 138.185348511,-32.82678064 138.185487986,-32.826611493 138.185538864,-32.826514598 138.185536265,-32.826413177 138.185493434,-32.82631184 138.185487986,-32.826221567 138.185522938,-32.826140514 138.185603321,-32.826066082 138.185734665,-32.825906072 138.186053932,-32.825412462 138.185879588,-32.825326798 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

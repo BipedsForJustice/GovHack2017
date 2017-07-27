@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Wetlands Loop Trail, Onkaparinga River]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="carpark">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/carpark.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="achtung">
+		<IconStyle>
+			<Icon>
+				<href>https://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/achtung.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Eastern trailhead of the Wetlands Loop Trail on River Road</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.49572896,-35.155969039,9.274</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Official eastern trailhead of the Wetlands Loop Trail</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.493475989,-35.156332981,9.338</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Official western trailhead of the Wetlands Loop Trail</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.491494339,-35.154771013</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Western trailhead of the Wetlands Loop Trail on River Road</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.491211198,-35.153714139</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Wetlands Loop Trail, Onkaparinga River]]></name>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff0080ff</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.495667018,-35.156021006,10.23 138.495574985,-35.156063,9.75 138.495468032,-35.15609703,9.75 138.495345991,-35.15611304,9.75 138.495148011,-35.156146986,9.75 138.495040974,-35.156181017,8.79 138.494888004,-35.156208007,9.75 138.494765963,-35.15622301,9.75 138.494644007,-35.15618898,9.75 138.494506963,-35.156193003,9.75 138.494385006,-35.156208007,9.27 138.494277969,-35.156269027,9.27 138.49418602,-35.156342033,9.27 138.494079988,-35.156353014,9.75 138.493958032,-35.156363994,9.75 138.493834985,-35.156380003,9.27 138.493698025,-35.15639903,9.27 138.493575985,-35.15640297,9.75 138.493499961,-35.156344967,9.27 138.493469032,-35.156322001,9.27 138.493393008,-35.156245977,9.75 138.493316984,-35.156170037,9.75 138.493195027,-35.156104993,10.71 138.493102994,-35.156032993,11.19 138.493041974,-35.155949006,11.19 138.493010961,-35.155856973,11.67 138.492966034,-35.155766029,11.67 138.492905013,-35.155581962,12.63 138.492889004,-35.155486995,12.63 138.492843993,-35.155398985,13.12 138.492782973,-35.155308042,12.63 138.492706027,-35.155273005,13.12 138.492645007,-35.155242998,13.12 138.49253797,-35.155190025,12.63 138.492432022,-35.155159011,12.15 138.492293973,-35.155148031,11.67 138.492157012,-35.155124981,11.67 138.492034972,-35.155087011,11.67 138.491913015,-35.155040994,10.71 138.491805978,-35.154999001,9.75 138.491699025,-35.154952984,9.75 138.491638005,-35.154900011,10.23 138.491576985,-35.154846031,9.27 138.491440024,-35.154704964,9.75 138.491347991,-35.154632963,10.71 138.491271967,-35.15457496,10.23 138.491256963,-35.154517964,10.71 138.491241038,-35.154422997,10.23 138.491226034,-35.15431596,9.75 138.491241038,-35.154209007,10.71 138.491226034,-35.154120997,10.23 138.491241038,-35.154014966,9.75 138.491226034,-35.153914969,10.23 138.491226034,-35.15381204,9.75 138.491211031,-35.153712966,10.23 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

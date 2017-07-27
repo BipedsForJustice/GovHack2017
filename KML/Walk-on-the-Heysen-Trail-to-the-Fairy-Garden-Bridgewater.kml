@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name><![CDATA[Walk on the Heysen Trail to the Fairy Garden, Bridgewater]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Fairy Garden, Deanery Reserve, on the Heysen Trail</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.753249189,-35.003992561</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Historic bridge, Deanery Reserve</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.752762033,-35.004837038</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tunnel under railway</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.754332131,-35.00788101</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heysen Trail trailhead, Old Bridgewater Milll</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.75844337,-35.009069983</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Walk on the Heysen Trail to the Fairy Garden, Bridgewater]]></name>
+        <Style>
+          <LineStyle>
+            <color>fff400f0</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.758445382,-35.009065541 138.758165343,-35.008952469 138.758132989,-35.008937968,408.22 138.758056965,-35.008835038,409.18 138.758011032,-35.008811988,409.66 138.757888991,-35.008769995,409.66 138.757767035,-35.008774018,408.7 138.757706014,-35.008728001,409.18 138.757721018,-35.008609984,413.5 138.757644994,-35.008518035,416.39 138.757446008,-35.008457014,416.39 138.757278034,-35.008400017,416.39 138.757125987,-35.008400017,416.39 138.757019034,-35.008433964,415.91 138.756850976,-35.008427007,416.39 138.756683003,-35.00838099,416.39 138.756545959,-35.008400017,416.39 138.756377986,-35.008385014,416.39 138.756195009,-35.00840798,415.91 138.756027035,-35.008391971,416.39 138.755889991,-35.008404041,416.39 138.755798042,-35.008457014,415.91 138.755645994,-35.008479981,415.91 138.755493024,-35.008503031,416.39 138.75529496,-35.008494984,415.91 138.755173003,-35.008521974,416.39 138.755035037,-35.008530021,416.39 138.754867986,-35.008510994,416.39 138.754745023,-35.008476041,416.39 138.754622983,-35.00840798,415.91 138.754501026,-35.00834696,413.5 138.754409999,-35.008235984,412.54 138.754394995,-35.008147974,412.54 138.754332969,-35.008075973,412.54 138.754332969,-35.00791504,413.5 138.754332969,-35.007834993,414.95 138.754348978,-35.007670959,416.39 138.754471019,-35.007637013,417.35 138.754517036,-35.007556966,419.27 138.754561963,-35.007454036,419.75 138.754561963,-35.007339036,419.27 138.754440006,-35.007144995,419.27 138.754317965,-35.007050028,419.27 138.754149992,-35.006972998,419.27 138.753998028,-35.006881971,419.27 138.753829971,-35.006748028,419.75 138.753693011,-35.006657001,419.75 138.753585974,-35.006579971,419.27 138.753540041,-35.006462038,419.75 138.753464017,-35.006324993,419.75 138.753386987,-35.00615702,419.75 138.753325967,-35.00604596,419.75 138.75329596,-35.005913023,419.27 138.753250027,-35.005795006,419.75 138.753189007,-35.005649999,420.23 138.753127987,-35.005524019,419.75 138.75308197,-35.005398039,419.75 138.753051963,-35.005295025,420.23 138.753036037,-35.005145995,420.71 138.753021033,-35.005035019,420.71 138.752975017,-35.004936028,420.71 138.753021033,-35.004607961,421.68 138.753112983,-35.00450897,423.12 138.753189007,-35.004414003,423.6 138.753265031,-35.004288023,425.04 138.753341977,-35.004176963,426 138.753386987,-35.004081996,427.44 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

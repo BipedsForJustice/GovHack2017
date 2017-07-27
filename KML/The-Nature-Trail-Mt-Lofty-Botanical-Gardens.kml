@@ -1,0 +1,74 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name><![CDATA[The Nature Trail, Mt Lofty Botanical Gardens]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Bottom-of-the-hill Trailhead of the Nature Trail</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.716796879,-34.983637026</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Top-of-the-hill Trailhead of the Nature Trail</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.710891576,-34.985994603</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[The Nature Trail, Mt Lofty Botanical Gardens]]></name>
+        <Style>
+          <LineStyle>
+            <color>ffe74f3b</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.716872986,-34.983668961,527.42 138.716766033,-34.983604001,529.34 138.716628989,-34.983593021,532.23 138.716492029,-34.983562008,535.59 138.716338975,-34.983573994,537.99 138.716232022,-34.98356997,540.4 138.716155998,-34.983542981,541.36 138.715988025,-34.983479027,543.76 138.715880988,-34.98349797,544.72 138.715714021,-34.98352102,548.09 138.715500031,-34.983562008,551.45 138.715301966,-34.98356997,553.86 138.715256033,-34.983624034,556.74 138.714951016,-34.983741967,559.14 138.714843979,-34.983837018,562.99 138.714644993,-34.983928967,566.83 138.714599982,-34.984019995,567.8 138.714462016,-34.984145975,569.24 138.714324972,-34.984191991,572.6 138.714188011,-34.984226022,575.01 138.713989025,-34.984257035,578.37 138.713836977,-34.984244965,582.7 138.713622987,-34.984268015,583.66 138.713425007,-34.984286958,583.18 138.713272037,-34.984367006,581.73 138.71310398,-34.984435989,581.73 138.712952016,-34.984492986,583.66 138.712829975,-34.984549982,584.14 138.712677006,-34.984549982,587.5 138.712463016,-34.984588958,590.39 138.712219018,-34.984631035,591.83 138.712036042,-34.98471804,591.35 138.711898997,-34.984866986,590.39 138.711806964,-34.984920966,589.43 138.711837977,-34.984981986,589.91 138.711945014,-34.98514602,589.91 138.711914001,-34.985233024,591.35 138.711867984,-34.985275017,594.23 138.711791961,-34.985225983,596.64 138.711685007,-34.985264037,599.52 138.711562967,-34.98528298,600.96 138.71144101,-34.98530603,603.85 138.711364986,-34.98530603,605.77 138.71124303,-34.985297984,607.69 138.711182009,-34.985378031,609.61 138.711166,-34.985474003,612.5 138.711089976,-34.98548096,616.82 138.710999032,-34.985466041,617.3 138.710784959,-34.98548096,620.67 138.710784959,-34.98559596,622.59 138.710799962,-34.985722024,625.47 138.710830975,-34.985846998,627.4 138.710922003,-34.985946994,628.84 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

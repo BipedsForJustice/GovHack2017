@@ -1,0 +1,194 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name><![CDATA[Waterfall Gully Walking Trail (along Waterfall Gully Road)]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Chambers Gully trails</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.671759069,-34.951180369</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chambers Gully Walking Trail rest stop</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.671143502,-34.95065826</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crossing Point (1)</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.666324914,-34.946447024</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crossing Point (2)</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.668658435,-34.949023705</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crossing Point (3)</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.672704464,-34.953560159</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crossing Point (4)</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.673789501,-34.957801905</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>End of formal trail</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.674791306,-34.958160231</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Langman Reserve carpark</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.664737716,-34.943752075</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trailhead, at start of Waterfall Gully Road</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.66201804,-34.940735511</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking trails trailhead</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.680322692,-34.969389215</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waterfall Gully carpark</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.680103421,-34.968383638</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Waterfall Gully Walking Trail (along Waterfall Gully Road)]]></name>
+        <Style>
+          <LineStyle>
+            <color>ffffa800</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.66201804,-34.940735511 138.662179559,-34.940851517 138.662300259,-34.940922931 138.662371337,-34.940982778 138.662502095,-34.941111524 138.662754893,-34.941324675 138.66293326,-34.941435819 138.663241714,-34.941600692 138.663290665,-34.941663891 138.663414717,-34.941995898 138.663569614,-34.942354308 138.663583696,-34.942469727 138.663571039,-34.942572489 138.663586378,-34.942637868 138.663662821,-34.942729063 138.663825095,-34.942877591 138.664114103,-34.943040786 138.664226839,-34.943098538 138.664325327,-34.943195768 138.664452061,-34.943399699 138.664621711,-34.943681667 138.665017337,-34.944186928 138.665023372,-34.944193382 138.665190339,-34.944413323 138.665240631,-34.944502423 138.665277511,-34.944565035 138.665392762,-34.944749102 138.665787131,-34.945194433 138.666222319,-34.945662729 138.666312173,-34.945775298 138.666349724,-34.945924915 138.666347712,-34.946095822 138.666361794,-34.946442079 138.666269928,-34.946445934 138.666268587,-34.946663026 138.666308066,-34.94699562 138.666348383,-34.94724012 138.666368499,-34.947301727 138.666460365,-34.947464922 138.666701764,-34.947765581 138.666829169,-34.947904721 138.666900918,-34.947959622 138.667149022,-34.948055763 138.667442137,-34.948123991 138.667693511,-34.948233292 138.667940861,-34.948362038 138.668091819,-34.948431775 138.668388203,-34.948735116 138.668524325,-34.948937371 138.668620214,-34.949044576 138.668698668,-34.949007193 138.668789864,-34.949084222 138.669110388,-34.949230403 138.669370562,-34.949346911 138.669583797,-34.949456798 138.669681028,-34.949526116 138.669788316,-34.949645307 138.669871464,-34.949759133 138.669909686,-34.949809089 138.669923097,-34.949868517 138.670005575,-34.950047135 138.670091406,-34.950215276 138.67020674,-34.950347207 138.6703033,-34.95042474 138.670401871,-34.950470924 138.670512512,-34.950503781 138.670639163,-34.950524233 138.670888692,-34.950546697 138.67101266,-34.950587936 138.671171665,-34.950670414 138.671213239,-34.950708803 138.671759069,-34.951180369 138.672054112,-34.951376086 138.672385365,-34.95156954 138.672578484,-34.95180482 138.67264688,-34.951922419 138.672791719,-34.95235987 138.672854835,-34.952672012 138.672823906,-34.953242484 138.672783673,-34.953480028 138.672752827,-34.953572312 138.672669679,-34.953551441 138.672484607,-34.954043794 138.672425598,-34.954199865 138.672432303,-34.954285696 138.672457784,-34.95436809 138.67258653,-34.954734128 138.672677726,-34.954922134 138.672754169,-34.955130927 138.672791719,-34.95530678 138.672786439,-34.955457402 138.672735393,-34.955843221 138.67274344,-34.95598278 138.672842681,-34.956237841 138.672971427,-34.95652467 138.673121631,-34.956796076 138.673328161,-34.957124814 138.673620522,-34.957627142 138.673699563,-34.957766701 138.673750609,-34.957827134 138.673819005,-34.957783213 138.673938364,-34.957853537 138.674254864,-34.957964513 138.674508333,-34.95805026 138.67463842,-34.958094181 138.674791306,-34.958160231 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Waterfall Gully Walking Trail (along Waterfall Gully Road) (informal 1)]]></name>
+        <Style>
+          <LineStyle>
+            <color>ff0000ce</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.674402386,-34.958091499 138.674563318,-34.958134918 138.674741015,-34.95822276 138.67489323,-34.958317894 138.674950227,-34.958366342 138.674998507,-34.958427278 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Waterfall Gully Walking Trail (along Waterfall Gully Road) (informal 2)]]></name>
+        <Style>
+          <LineStyle>
+            <color>ff0000ce</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.676062003,-34.960132493 138.676023111,-34.960423764 138.676006263,-34.96058587 138.675989583,-34.960817294 138.6759004,-34.961547609 138.675884306,-34.96181801 138.675886989,-34.961883891 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Waterfall Gully Walking Trail (along Waterfall Gully Road) (informal 3)]]></name>
+        <Style>
+          <LineStyle>
+            <color>ff0000ce</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.67679894,-34.963769903 138.676917041,-34.964161171 138.676992059,-34.96439863 138.677120805,-34.964651428 138.677268326,-34.964842619 138.677893281,-34.965299768 138.678008616,-34.965409739 138.678239286,-34.965594392 138.678563833,-34.965721797 138.678781092,-34.965862529 138.678880334,-34.965829588 138.679094911,-34.966181209 138.679454327,-34.966649422 138.679591119,-34.966943962 138.679797566,-34.9674825 138.679990768,-34.967862703 138.680157065,-34.968082476 138.680181205,-34.968218766 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

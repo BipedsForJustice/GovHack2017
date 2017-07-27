@@ -1,0 +1,98 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name><![CDATA[WORKING]]></name>
+	<Style id="wsa_line">
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="waypoint">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/default.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="junction">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/junction.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="trailhead">
+		<IconStyle>
+			<Icon>
+				<href>http://walkingsa.org.au/wp-content/themes/unsemantic_jezremy_child/images/placemarkers/trailhead.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Start of Seaview Loop</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.60513702,-34.996413141</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Start (end of Beagle Terrace, near Lynton Train Station)</name>
+        <styleUrl>#trailhead</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.605303317,-34.996268637</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junction of Seaview Loop and Lynton Connector</name>
+        <styleUrl>#junction</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.606659006,-34.997821972</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seaview Loop turnaround loop</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.608465642,-34.998638788</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junction of Seaview Loop with exit to Seaview Road</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>138.606730001,-34.997460041</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark>
+        <name><![CDATA[Seaview Loop, Lynton Reserve]]></name>
+        <Style>
+          <LineStyle>
+            <color>ff3333dd</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>138.605140038,-34.99641004 138.605189994,-34.996450022 138.605229976,-34.996480029 138.605319997,-34.996520011 138.605370037,-34.996559992 138.605410019,-34.996610032 138.60551999,-34.996650014 138.605600037,-34.996689996 138.605670026,-34.996759985 138.605740014,-34.996859981 138.605770022,-34.99692997 138.605810003,-34.997019991 138.605849985,-34.997049998 138.605909999,-34.997070031 138.605970014,-34.997070031 138.606000021,-34.99708998 138.606040003,-34.997119987 138.606089959,-34.997170027 138.606119966,-34.997210009 138.606160032,-34.997270023 138.606200013,-34.997310005 138.606270002,-34.997330038 138.606330017,-34.99737002 138.606390031,-34.997410001 138.60646002,-34.997470016 138.606500002,-34.99753003 138.606520034,-34.997570012 138.606550042,-34.997609993 138.606579965,-34.997640001 138.60662003,-34.997670008 138.606639979,-34.99770999 138.606639979,-34.99776003 138.606630005,-34.997770004 138.606660012,-34.997830018 138.606730001,-34.997890033 138.606780041,-34.997969996 138.606829997,-34.998030011 138.606920019,-34.998069992 138.607050022,-34.998109974 138.607159993,-34.998160014 138.60729997,-34.998190021 138.607389992,-34.998220028 138.607399967,-34.998230003 138.607450007,-34.998320024 138.607499963,-34.998350032 138.60752997,-34.998409962 138.607651005,-34.998454973,151.54 138.607848985,-34.998421026,149.62 138.607986029,-34.998427983,150.1 138.608092982,-34.998469977,150.58 138.608170012,-34.99850099,152.03 138.608321976,-34.998581037,154.43 138.608475029,-34.998668963,154.43 138.60845902,-34.998604003,154.91 138.608414009,-34.998515993,153.47 138.608321976,-34.998427983,151.54 138.608200019,-34.998355983,149.14 138.608031962,-34.998294963,147.7 138.607879998,-34.99822598,147.7 138.607742032,-34.998150039,147.7 138.607634995,-34.998074016,149.62 138.607528964,-34.997974019,150.1 138.607452018,-34.997893972,149.14 138.607314974,-34.997833036,145.78 138.607147001,-34.997767992,144.82 138.606995037,-34.997715019,143.85 138.60682698,-34.997676965,142.89 138.606720027,-34.997607982,142.89 138.606730001,-34.997460041 138.606720027,-34.997470016 138.606679961,-34.997470016 138.606639979,-34.997470016 138.606590023,-34.997449983 138.606539983,-34.997410001 138.606490027,-34.99737002 138.606449962,-34.997300031 138.606379973,-34.997219983 138.606309984,-34.997170027 138.606249969,-34.99708998 138.606239995,-34.997080006 138.606170006,-34.996999959 138.606109992,-34.99692997 138.605989963,-34.996850006 138.605909999,-34.996789992 138.605649993,-34.99659 138.605389986,-34.996380033 138.605319997,-34.996320019 </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>GeoJSON tutorial - Leaflet</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />	
+	
+<!--	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />  -->
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.1.0/dist/leaflet.css" integrity="sha512-wcw6ts8Anuw10Mzh9Ytw4pylW8+NAD4ch3lqm9lzAsTxg0GFeJgoAtxuCLREZSC5lUXdVyo/7yfsqFjQ4S+aKw==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.1.0/dist/leaflet.js" integrity="sha512-mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1MrdXvMcA==" crossorigin=""></script>
+
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+		}
+		html, body, #map {
+			height: 100vh;
+			width: 100vw;
+		}
+	</style>	
+</head>
+<body>
+
+<div id='map'></div>
+
+<script src="collection-geojson.js" type="text/javascript"></script>
+<script src="shipwreck-geojson.js" type="text/javascript"></script>
+<script>
+	var map = L.map('map').setView([-34.9286600, 138.5986300], 9);
+
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiYmlwZWRzZm9yanVzdGljZSIsImEiOiJjajVxMTMxbXIwaGVnMnFvNTNqZHE0eHBiIn0.anwHYvWTFpEyruM8GNkRGA', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+		id: 'mapbox.light'
+	}).addTo(map);
+
+	var baseballIcon = L.icon({
+		iconUrl: 'anchor.png',
+		iconSize: [32, 37],
+		iconAnchor: [16, 37],
+		popupAnchor: [0, -28]
+	});
+
+	function onEachFeature(feature, layer) {
+		var popupContent = "<p>track name:" +
+				feature.properties.Name + ".</p>";
+
+		if (feature.properties && feature.properties.popupContent) {
+			popupContent += feature.properties.popupContent;
+		}
+
+		layer.bindPopup(popupContent);
+	}
+
+
+	historicArray = []
+	for(i=1;i<21;i++){
+		historicArray[historicArray.length] = eval("historic"+i)
+	}
+
+	L.geoJSON(historicArray, {
+		style: function (feature) {
+			return feature.properties && feature.properties.style;
+		},
+
+		onEachFeature: onEachFeature,
+
+		pointToLayer: function (feature, latlng) {
+			return L.circleMarker(latlng, {
+				radius: 8,
+				fillColor: "#ff7800",
+				color: "#000",
+				weight: 1,
+				opacity: 1,
+				fillOpacity: 0.8
+			});
+		}
+	}).addTo(map);
+
+
+
+
+
+	L.geoJSON([AdmiralsArchWalk, CoralLichenCircuit, GreenfieldsWetlandsNatureTrail, KaikiWalk, LorikeetLoopWalk, MannumWaterfalls, MorialtaFallsValleyWalk, RiverRedGumLoop, ValleyLoopHike, WoorabindaBushlandReserveLoop, WirraWaterLoop, WoodDuckWalk], {
+		onEachFeature: onEachFeature
+	}).addTo(map);
+
+
+
+
+
+/*	shipwreckArray = [shipwreck1, shipwreck2, shipwreck3, shipwreck4, shipwreck5, shipwreck6, shipwreck7, shipwreck8, shipwreck9, shipwreck10, shipwreck11, shipwreck12, shipwreck13, shipwreck14, shipwreck15, shipwreck16, shipwreck17, shipwreck18, shipwreck19, shipwreck20, shipwreck21, shipwreck22, shipwreck23, shipwreck24, shipwreck25, shipwreck26, shipwreck27, shipwreck28, shipwreck29, shipwreck30, shipwreck31, shipwreck32, shipwreck33, shipwreck34, shipwreck35, shipwreck36, shipwreck37, shipwreck38, shipwreck39, shipwreck40, shipwreck41, shipwreck42, shipwreck43, shipwreck44, shipwreck45, shipwreck46, shipwreck47, shipwreck48, shipwreck49, shipwreck50, shipwreck51, shipwreck52, shipwreck53, shipwreck54, shipwreck55, shipwreck56, shipwreck57, shipwreck58, shipwreck59, shipwreck60, shipwreck61, shipwreck62, shipwreck63, shipwreck64, shipwreck65, shipwreck66, shipwreck67, shipwreck68, shipwreck69, shipwreck70, shipwreck71, shipwreck72, shipwreck73, shipwreck74, shipwreck75, shipwreck76, shipwreck77, shipwreck78, shipwreck79, shipwreck80, shipwreck81, shipwreck82, shipwreck83, shipwreck84, shipwreck85, shipwreck86, shipwreck87, shipwreck88, shipwreck89, shipwreck90, shipwreck91, shipwreck92, shipwreck93, shipwreck94, shipwreck95, shipwreck96, shipwreck97, shipwreck98, shipwreck99, shipwreck100, 
+				      shipwreck101, shipwreck102, shipwreck103, shipwreck104, shipwreck105, shipwreck106, shipwreck107, shipwreck108, shipwreck109, shipwreck110, shipwreck111, shipwreck112, shipwreck113, shipwreck114, shipwreck115, shipwreck116, shipwreck117, shipwreck118, shipwreck119, shipwreck120, shipwreck121, shipwreck122, shipwreck123, shipwreck124, shipwreck125, shipwreck126, shipwreck127, shipwreck128, shipwreck129, shipwreck130, shipwreck131, shipwreck132, shipwreck133, shipwreck134, shipwreck135, shipwreck136, shipwreck137, shipwreck138, shipwreck139, shipwreck140, shipwreck141, shipwreck142, shipwreck143, shipwreck144, shipwreck145, shipwreck146, shipwreck147, shipwreck148, shipwreck149, shipwreck150, shipwreck151, shipwreck152, shipwreck153, shipwreck154, shipwreck155, shipwreck156, shipwreck157, shipwreck158, shipwreck159, shipwreck160, shipwreck161, shipwreck162, shipwreck163, shipwreck164, shipwreck165, shipwreck166, shipwreck167, shipwreck168, shipwreck169, shipwreck170, shipwreck171, shipwreck172, shipwreck173, shipwreck174, shipwreck175, shipwreck176, shipwreck177, shipwreck178, shipwreck179, shipwreck180, shipwreck181, shipwreck182, shipwreck183, shipwreck184, shipwreck185, shipwreck186, shipwreck187, shipwreck188, shipwreck189, shipwreck190, shipwreck191, shipwreck192, shipwreck193, shipwreck194, shipwreck195, shipwreck196, shipwreck197, shipwreck198, shipwreck199, shipwreck200, 
+				      shipwreck201, shipwreck202, shipwreck203, shipwreck204, shipwreck205, shipwreck206, shipwreck207, shipwreck208, shipwreck209, shipwreck210, shipwreck211, shipwreck212, shipwreck213, shipwreck214, shipwreck215, shipwreck216, shipwreck217, shipwreck218, shipwreck219, shipwreck220, shipwreck221, shipwreck222, shipwreck223, shipwreck224, shipwreck225, shipwreck226, shipwreck227, shipwreck228, shipwreck229, shipwreck230, shipwreck231, shipwreck232, shipwreck233, shipwreck234, shipwreck235, shipwreck236, shipwreck237, shipwreck238, shipwreck239, shipwreck240, shipwreck241, shipwreck242, shipwreck243, shipwreck244, shipwreck245, shipwreck246, shipwreck247, shipwreck248, shipwreck249, shipwreck250, shipwreck251, shipwreck252, shipwreck253, shipwreck254, shipwreck255, shipwreck256, shipwreck257, shipwreck258, shipwreck259, shipwreck260, shipwreck261, shipwreck262, shipwreck263, shipwreck264, shipwreck265, shipwreck266, shipwreck267, shipwreck268, shipwreck269, shipwreck270, shipwreck271, shipwreck272, shipwreck273, shipwreck274, shipwreck275, shipwreck276, shipwreck277, shipwreck278, shipwreck279, shipwreck280, shipwreck281, shipwreck282, shipwreck283, shipwreck284, shipwreck285, shipwreck286, shipwreck287, shipwreck288, shipwreck289, shipwreck290, shipwreck291, shipwreck292, shipwreck293, shipwreck294, shipwreck295, shipwreck296, shipwreck297, shipwreck298, shipwreck299, shipwreck300, 
+				      shipwreck301, shipwreck302, shipwreck303, shipwreck304, shipwreck305, shipwreck306, shipwreck307, shipwreck308, shipwreck309, shipwreck310, shipwreck311, shipwreck312, shipwreck313, shipwreck314, shipwreck315, shipwreck316, shipwreck317, shipwreck318, shipwreck319, shipwreck320, shipwreck321, shipwreck322, shipwreck323, shipwreck324, shipwreck325, shipwreck326, shipwreck327, shipwreck328, shipwreck329, shipwreck330, shipwreck331, shipwreck332, shipwreck333, shipwreck334, shipwreck335, shipwreck336, shipwreck337, shipwreck338, shipwreck339, shipwreck340, shipwreck341, shipwreck342, shipwreck343, shipwreck344, shipwreck345, shipwreck346, shipwreck347, shipwreck348, shipwreck349, shipwreck350, shipwreck351, shipwreck352, shipwreck353, shipwreck354, shipwreck355, shipwreck356, shipwreck357, shipwreck358, shipwreck359, shipwreck360, shipwreck361, shipwreck362, shipwreck363, shipwreck364, shipwreck365, shipwreck366, shipwreck367, shipwreck368, shipwreck369, shipwreck370, shipwreck371, shipwreck372, shipwreck373, shipwreck374, shipwreck375, shipwreck376, shipwreck377, shipwreck378, shipwreck379, shipwreck380, shipwreck381, shipwreck382, shipwreck383, shipwreck384, shipwreck385, shipwreck386, shipwreck387, shipwreck388, shipwreck389, shipwreck390, shipwreck391, shipwreck392, shipwreck393, shipwreck394, shipwreck395, shipwreck396, shipwreck397, shipwreck398, shipwreck399, shipwreck400, 
+				      shipwreck401, shipwreck402, shipwreck403, shipwreck404, shipwreck405, shipwreck406, shipwreck407, shipwreck408, shipwreck409, shipwreck410, shipwreck411, shipwreck412, shipwreck413, shipwreck414, shipwreck415, shipwreck416, shipwreck417, shipwreck418, shipwreck419, shipwreck420, shipwreck421, shipwreck422, shipwreck423, shipwreck424, shipwreck425, shipwreck426, shipwreck427, shipwreck428, shipwreck429, shipwreck430, shipwreck431, shipwreck432, shipwreck433, shipwreck434, shipwreck435, shipwreck436, shipwreck437, shipwreck438, shipwreck439, shipwreck440, shipwreck441, shipwreck442, shipwreck443, shipwreck444, shipwreck445, shipwreck446, shipwreck447, shipwreck448, shipwreck449, shipwreck450, shipwreck451, shipwreck452, shipwreck453, shipwreck454, shipwreck455, shipwreck456, shipwreck457, shipwreck458, shipwreck459, shipwreck460, shipwreck461, shipwreck462, shipwreck463, shipwreck464, shipwreck465, shipwreck466, shipwreck467, shipwreck468, shipwreck469, shipwreck470, shipwreck471, shipwreck472, shipwreck473, shipwreck474, shipwreck475, shipwreck476, shipwreck477, shipwreck478, shipwreck479, shipwreck480, shipwreck481, shipwreck482, shipwreck483, shipwreck484, shipwreck485, shipwreck486, shipwreck487, shipwreck488, shipwreck489, shipwreck490, shipwreck491, shipwreck492, shipwreck493, shipwreck494, shipwreck495, shipwreck496, shipwreck497, shipwreck498, shipwreck499, shipwreck500, 
+				      shipwreck501, shipwreck502, shipwreck503, shipwreck504, shipwreck505, shipwreck506, shipwreck507, shipwreck508, shipwreck509, shipwreck510, shipwreck511, shipwreck512, shipwreck513, shipwreck514, shipwreck515, shipwreck516, shipwreck517, shipwreck518, shipwreck519, shipwreck520, shipwreck521, shipwreck522, shipwreck523, shipwreck524, shipwreck525, shipwreck526, shipwreck527, shipwreck528, shipwreck529, shipwreck530, shipwreck531, shipwreck532, shipwreck533, shipwreck534, shipwreck535, shipwreck536, shipwreck537, shipwreck538, shipwreck539, shipwreck540, shipwreck541, shipwreck542, shipwreck543, shipwreck544, shipwreck545, shipwreck546, shipwreck547, shipwreck548, shipwreck549, shipwreck550, shipwreck551, shipwreck552, shipwreck553, shipwreck554, shipwreck555, shipwreck556, shipwreck557, shipwreck558, shipwreck559, shipwreck560, shipwreck561, shipwreck562, shipwreck563, shipwreck564, shipwreck565, shipwreck566, shipwreck567, shipwreck568, shipwreck569, shipwreck570, shipwreck571, shipwreck572, shipwreck573, shipwreck574, shipwreck575, shipwreck576, shipwreck577, shipwreck578, shipwreck579, shipwreck580, shipwreck581, shipwreck582, shipwreck583, shipwreck584, shipwreck585, shipwreck586, shipwreck587, shipwreck588, shipwreck589, shipwreck590, shipwreck591, shipwreck592, shipwreck593, shipwreck594, shipwreck595, shipwreck596, shipwreck597, shipwreck598, shipwreck599, shipwreck600, 
+				      shipwreck601, shipwreck602, shipwreck603, shipwreck604, shipwreck605, shipwreck606, shipwreck607, shipwreck608, shipwreck609, shipwreck610, shipwreck611, shipwreck612, shipwreck613, shipwreck614, shipwreck615, shipwreck616, shipwreck617, shipwreck618, shipwreck619, shipwreck620, shipwreck621, shipwreck622, shipwreck623, shipwreck624, shipwreck625, shipwreck626, shipwreck627, shipwreck628, shipwreck629, shipwreck630, shipwreck631, shipwreck632, shipwreck633, shipwreck634, shipwreck635, shipwreck636, shipwreck637, shipwreck638, shipwreck639, shipwreck640, shipwreck641, shipwreck642, shipwreck643, shipwreck644, shipwreck645, shipwreck646, shipwreck647, shipwreck648, shipwreck649, shipwreck650, shipwreck651, shipwreck652, shipwreck653, shipwreck654, shipwreck655, shipwreck656, shipwreck657, shipwreck658, shipwreck659, shipwreck660, shipwreck661, shipwreck662, shipwreck663, shipwreck664, shipwreck665, shipwreck666, shipwreck667, shipwreck668, shipwreck669, shipwreck670, shipwreck671, shipwreck672, shipwreck673, shipwreck674, shipwreck675, shipwreck676, shipwreck677, shipwreck678, shipwreck679, shipwreck680, shipwreck681, shipwreck682, shipwreck683, shipwreck684, shipwreck685, shipwreck686, shipwreck687, shipwreck688, shipwreck689, shipwreck690, shipwreck691, shipwreck692, shipwreck693, shipwreck694, shipwreck695, shipwreck696, shipwreck697, shipwreck698, shipwreck699, shipwreck700, 
+				      shipwreck701, shipwreck702, shipwreck703, shipwreck704, shipwreck705, shipwreck706, shipwreck707, shipwreck708, shipwreck709, shipwreck710, shipwreck711, shipwreck712, shipwreck713, shipwreck714, shipwreck715, shipwreck716, shipwreck717, shipwreck718, shipwreck719, shipwreck720, shipwreck721, shipwreck722, shipwreck723, shipwreck724, shipwreck725, shipwreck726, shipwreck727, shipwreck728, shipwreck729, shipwreck730, shipwreck731, shipwreck732, shipwreck733, shipwreck734, shipwreck735, shipwreck736, shipwreck737, shipwreck738, shipwreck739, shipwreck740, shipwreck741, shipwreck742, shipwreck743, shipwreck744, shipwreck745, shipwreck746, shipwreck747, shipwreck748, shipwreck749, shipwreck750, shipwreck751, shipwreck752]
+*/
+
+	shipwreckArray = []
+	for(i=1;i<153;i++){
+		shipwreckArray[shipwreckArray.length] = eval("shipwreck"+i)
+	}
+
+	var coorsLayer = L.geoJSON(shipwreckArray, {
+
+		pointToLayer: function (feature, latlng) {
+			return L.marker(latlng, {icon: baseballIcon});
+		},
+
+		onEachFeature: onEachFeature
+	}).addTo(map);
+
+
+</script>
+
+
+
+</body>
+</html>
